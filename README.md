@@ -23,7 +23,7 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 | M | The goal will be achieved if the Home Page successfully opens on LocalHost with the intended format. The intended background image, logo, buttons, & text should be clearly visible, & the format should be appealing. |
 | A | This goal will be achieved via the use of HTML, CSS, & Java knowledge in conjunction with the IntelliJ IDEA development interface. Websites were developed in the previous Tri, so this goal is very achievable. |
 | R | The goal is very realistic, especially with work put in from every team member. Most of the knowledge used to create the Home Page is from prior experience, so this goal is extremely realistic.
-| T | This goal should be achieved by March 26, 2021. |
+| T | This goal should be achieved by April 12, 2021. |
 
 ###### SMART Goal 2
 | Smart Goal 2 | Description |
@@ -32,7 +32,7 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 | M | The goal will be achieved if the website is readily accessible via the public through the use of the URL. |
 | A | This goal is definitely achievable, as prior experience has allowed for the knowledge necessary to easily deploy the website. |
 | R | This goal is realistic, as the presence of a GitHub repository with working code is all that's necessary for deployment on Heroku. |
-| T | This goal should be achieved by March 26, 2021. |
+| T | This goal should be achieved by April 12, 2021. |
 
 ###### SMART Goal 3
 | Smart Goal 3 | Description |
@@ -41,16 +41,14 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 | M | If the recursion-based Factorial Program is able to be run successfully in IntelliJ IDEA, this goal will be achieved. |
 | A | This goal will be achievable, as it's simply the basis of the Mini Lab, which will be furthered next week. |
 | R | This goal is very realistic, as the Tech Talk on Thursday, March 25, 2021 provided quite a bit of insight regarding the approach necessary to complete this Mini Lab. |
-| T | This goal should be achieved by March 26, 2021. |
+| T | This goal should be achieved by April 12, 2021. |
 
 ## Individual SMART Goals
 
 Click [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1) to access the Scrum Board, which contains individual SMART Goals. They're under the "In Progress" column, with a separate card for each team member. Or, look below.
 
 ###### Aditya Surapaneni
-
-- S - Contribute to the team effort by assisting in the development of the Home Page via the use of HTML & CSS. Additionally, start on the Mini Lab by creating the basic logic for the Recursion Mini Lab in Factorial.java. Finally, routinely update the README, as well as the Scrum Board, to document progress.
-- M - These individual goals will be achieved if my contributions allow for the team SMART Goals to be successfully attained.
-- A - These goals are achievable, as I have full access to the material necessary, such as IntelliJ IDEA, prior knowledge, team members, etc.
-- R - These goals are realistic, as I have included variation to maintain focus. Focus is key in reaching the desired end result.
-- T - I will make sure to complete my tasks on time so as not to let my team down. The deadline is March 26, which I am sure is enough time.
+| Individual Goals | Description |
+| --- | --- |
+| Aditya | Contribute to the team effort by assisting in the development of the Home Page via the use of HTML & CSS. Additionally, start on the Mini Lab by creating the basic logic for the Recursion Mini Lab in Factorial.java. Finally, routinely update the README, as well as the Scrum Board, to document progress. These individual goals will be achieved if my contributions allow for the team SMART Goals to be successfully attained. These goals are achievable, as I have full access to the material necessary, such as IntelliJ IDEA, prior knowledge, team members, etc. These goals are realistic, as I have included variation to maintain focus. Focus is key in reaching the desired end result. I will make sure to complete my tasks on time so as not to let my team down. The deadline is April 12, which I am sure is enough time. |
+| Yasaswi | Help integrate Java back end code and front end HTML/CSS code, and add database functionality. The goal will be acheived when you can save events in the calender/ lab results on the website. The goal is achivable, as I have expericence/old code to refer back to, from last tri's project. The goal is realistic, as I've helped on the sql databases on the last project. I will try to achieve this goal by April 12. |
