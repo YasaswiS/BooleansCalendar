@@ -31,3 +31,13 @@ R - This goal is realistic, as the presence of a GitHub repository with working 
 T - This goal should be achieved by March 26, 2021.
 
 ###### SMART Goal 3
+
+S - The Booleans will start working on their Recursion Mini Lab, with the basic logic completed by March 26, 2021. If the basic logic is outlined, it will be much easier to work around the logic to establish the "view" that's part of the MVC framework. As a result, the Mini Lab will make its presence on the website at a late date, preferably by April 2, 2021.
+
+M - If the recursion-based Factorial Program is able to be run successfully in IntelliJ IDEA, this goal will be achieved.
+
+A - This goal will be achievable, as it's simply the basis of the Mini Lab, which will be furthered next week.
+
+R - This goal is very realistic, as the Tech Talk on Thursday, March 25, 2021 provided quite a bit of insight regarding the approach necessary to complete this Mini Lab.
+
+T - This goal should be achieved by March 26, 2021.
