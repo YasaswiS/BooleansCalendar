@@ -45,7 +45,7 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 
 ## Individual SMART Goals
 
-Click [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1) to access the Scrum Board, which contains individual SMART Goals. They're under the "In Progress" column, with a separate card for each team member.
+Click [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1) to access the Scrum Board, which contains individual SMART Goals. They're under the "In Progress" column, with a separate card for each team member. Or, look below.
 
 ###### Aditya Surapaneni
 
