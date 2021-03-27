@@ -16,7 +16,6 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 
 
 
-###### SMART Goal 1
 | Smart Goal 1 | Description |
 | --- | --- |
 | S | The Booleans will create a basic template for their website, with a home page set up with a background image, logo, buttons, text, etc. by March 26, 2021. Creating a template will allow for a basis to build off of while furthering the development of the intended Calendar Application. |
@@ -25,7 +24,6 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 | R | The goal is very realistic, especially with work put in from every team member. Most of the knowledge used to create the Home Page is from prior experience, so this goal is extremely realistic.
 | T | This goal should be achieved by April 12, 2021. |
 
-###### SMART Goal 2
 | Smart Goal 2 | Description |
 | --- | --- |
 | S | The Booleans will make sure their website is deployed by March 26 2021, even if the CSS formatting is not visible. The CSS formatting will be taken care of by the next checkpoint. The Booleans will utilize Heroku for deployment, as it's the simplest method. Ensuring the website is deployed is a simple goal, but it's essential for further progress, as the deployed website can be checked routinely to measure progress. |
@@ -47,7 +45,6 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 
 Click [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1) to access the Scrum Board, which contains individual SMART Goals. They're under the "In Progress" column, with a separate card for each team member. Or, look below.
 
-###### Aditya Surapaneni
 | Individual Goals | Description |
 | --- | --- |
 | Aditya | Contribute to the team effort by assisting in the development of the Home Page via the use of HTML & CSS. Additionally, start on the Mini Lab by creating the basic logic for the Recursion Mini Lab in Factorial.java. Finally, routinely update the README, as well as the Scrum Board, to document progress. These individual goals will be achieved if my contributions allow for the team SMART Goals to be successfully attained. These goals are achievable, as I have full access to the material necessary, such as IntelliJ IDEA, prior knowledge, team members, etc. These goals are realistic, as I have included variation to maintain focus. Focus is key in reaching the desired end result. I will make sure to complete my tasks on time so as not to let my team down. The deadline is April 12, which I am sure is enough time. |
