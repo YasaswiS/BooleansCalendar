@@ -49,3 +49,7 @@ A - This goal will be achievable, as it's simply the basis of the Mini Lab, whic
 R - This goal is very realistic, as the Tech Talk on Thursday, March 25, 2021 provided quite a bit of insight regarding the approach necessary to complete this Mini Lab.
 
 T - This goal should be achieved by March 26, 2021.
+
+## Individual SMART Goals
+
+Click [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1) to access the Scrum Board, which contains individual SMART Goals. They're under the "In Progress" column, with a separate card for each team member.
