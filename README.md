@@ -4,6 +4,14 @@
 
 With this Calendar application, users can schedule events by designating a specific date to be notified of the event, writing a description of the event, & setting a specific time to be notified of the event. The user will be notified of the events via their smartphone or by e-mail. May add functionality by linking it to canvas.
 
+## Website
+
+Click [here](https://booleans-website.herokuapp.com/) to access the website.
+
+NOTE: CSS formatting has not fully been implemented into the website, which will be a goal for the coming week. Complete CSS formatting can be seen if run via LocalHost, or by looking at the picture below.
+
+![Home Page Screenshot](https://user-images.githubusercontent.com/71394490/112705180-d5cb3f80-8e5a-11eb-9c53-c50d1347e9b0.png)
+
 ## Team SMART Goals for Mini Review #1
 
 ###### SMART Goal 1
