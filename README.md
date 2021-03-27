@@ -54,3 +54,13 @@ Click [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1) to acce
 | Yasaswi | Help integrate Java back end code and front end HTML/CSS code, and add database functionality. The goal will be acheived when you can save events in the calender/ lab results on the website. The goal is achivable, as I have expericence/old code to refer back to, from last tri's project. The goal is realistic, as I've helped on the sql databases on the last project. I will try to achieve this goal by April 12. |
 | Praveen | Help Yasaswi with the database storage as well as develop the backend code that sets up all of the event listeners. This goal will be acheived when all of the buttons are able to be pressed, and when they redirect to different pages of the website. This goal is realistic because I have experience with databases from last trimester, and Yasaswi could help me out when I am stuck. I will try to attain this goal by April 12. |
 | Neil | Check for APIs to allow for Canvas and Google integration so you can see your assignments, to-do's, and grades all in one space. Then implement these APIs into our project, allowing for a swift and clean connection to other apps. This goal is achievable because I have seen these kind of API integrations done into calendars before, so I can find tutorials explaining how to accomplish it if I am stuck. This goal is realistic as this is something which we can do and perserve through given our 3 tris of PBL learning. I will achieve this goal by April 12th 2021 |
+
+
+## Journals and Project Credits
+Contributor | GitHub Link | 
+----------- | ----------- |
+Neil Sahai | [@Neil-Sahai](https://github.com/Neil-Sahai) | 
+Aditya Supraneni | [@AdityaS1426](https://github.com/AdityaS1426) | 
+Praveen Natarajan | [@PNatarajan123](https://github.com/PNatarajan123) | 
+Yasaswi Singamneni | [@YasaswiS](https://github.com/YasaswiS) |
+Vihan Jayaraman | [@VihanJ](https://github.com/VihanJ) |
