@@ -46,3 +46,11 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 ## Individual SMART Goals
 
 Click [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1) to access the Scrum Board, which contains individual SMART Goals. They're under the "In Progress" column, with a separate card for each team member.
+
+###### Aditya Surapaneni
+
+- S - Contribute to the team effort by assisting in the development of the Home Page via the use of HTML & CSS. Additionally, start on the Mini Lab by creating the basic logic for the Recursion Mini Lab in Factorial.java. Finally, routinely update the README, as well as the Scrum Board, to document progress.
+- M - These individual goals will be achieved if my contributions allow for the team SMART Goals to be successfully attained.
+- A - These goals are achievable, as I have full access to the material necessary, such as IntelliJ IDEA, prior knowledge, team members, etc.
+- R - These goals are realistic, as I have included variation to maintain focus. Focus is key in reaching the desired end result.
+- T - I will make sure to complete my tasks on time so as not to let my team down. The deadline is March 26, which I am sure is enough time.
