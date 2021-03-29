@@ -1,7 +1,7 @@
-package com.booleans.calendar;
+package recursionlabs;
 
 import java.util.Scanner;
-public class Factorial {
+public class RecursionAditya {
 
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
