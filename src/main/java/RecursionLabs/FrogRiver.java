@@ -1,4 +1,4 @@
-package recursionlabs;
+package RecursionLabs;
 
 public class FrogRiver {
 

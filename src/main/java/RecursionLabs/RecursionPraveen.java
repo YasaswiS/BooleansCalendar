@@ -1,6 +1,6 @@
-package recursionlabs;
+package RecursionLabs;
 
-public class recursionpraveen{
+public class RecursionPraveen {
     public int fact(int n) {
 
             if (n == 0) {

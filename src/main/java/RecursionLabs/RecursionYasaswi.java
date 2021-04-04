@@ -1,6 +1,6 @@
-package recursionlabs;
+package RecursionLabs;
 
-public class recursionyasaswi{
+public class RecursionYasaswi {
     public int fact(int n) {
 
             if (n == 0) {

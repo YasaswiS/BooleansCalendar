@@ -1,6 +1,6 @@
-package recursionlabs;
+package RecursionLabs;
 
-public class recursionneil {
+public class RecursionNeil {
     public int fact(int n) {
         if (n <= 1) {
             return 1;
