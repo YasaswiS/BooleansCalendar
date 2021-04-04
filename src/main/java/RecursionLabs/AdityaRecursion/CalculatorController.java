@@ -21,63 +21,63 @@ public class CalculatorController {
 
     @RequestMapping(value="/calculator", params="add", method = RequestMethod.POST)
     public String add(@ModelAttribute("operationModel")  OperationModel operationModel, Model model ){
-        model.addAttribute("Result", calculateSimple.add(operationModel));
+        model.addAttribute("result", calculateSimple.add(operationModel));
         return "AdityaLab/Calculator";
     }
 
     @RequestMapping(value="/calculator", params="subtract", method = RequestMethod.POST)
     public String subtract(@ModelAttribute("operationModel")  OperationModel operationModel, Model model ){
-        model.addAttribute("Result", calculateSimple.subtract(operationModel));
+        model.addAttribute("result", calculateSimple.subtract(operationModel));
         return "AdityaLab/Calculator";
     }
 
     @RequestMapping(value="/calculator", params="multiply", method = RequestMethod.POST)
     public String multiply(@ModelAttribute("operationModel")  OperationModel operationModel, Model model ){
-        model.addAttribute("Result", calculateSimple.multiply(operationModel));
+        model.addAttribute("result", calculateSimple.multiply(operationModel));
         return "AdityaLab/Calculator";
     }
 
     @RequestMapping(value="/calculator", params="divide", method = RequestMethod.POST)
     public String divide(@ModelAttribute("operationModel")  OperationModel operationModel, Model model ){
-        model.addAttribute("Result", calculateSimple.divide(operationModel));
+        model.addAttribute("result", calculateSimple.divide(operationModel));
         return "AdityaLab/Calculator";
     }
 
     @RequestMapping(value="/calculator", params="fibonacci", method = RequestMethod.POST)
     public String fibonacci(@ModelAttribute("operationModel")  OperationModel operationModel, Model model ){
-        model.addAttribute("Result", calculateSimple.fibonacci(operationModel));
+        model.addAttribute("result", calculateSimple.fibonacci(operationModel));
         return "AdityaLab/Calculator";
     }
 
     @RequestMapping(value="/calculator", params="sqrt", method = RequestMethod.POST)
     public String sqrt(@ModelAttribute("operationModel")  OperationModel operationModel, Model model ){
-        model.addAttribute("Result", calculateSimple.sqrt(operationModel));
+        model.addAttribute("result", calculateSimple.sqrt(operationModel));
         return "AdityaLab/Calculator";
     }
 
     @RequestMapping(value="/calculator", params="power", method = RequestMethod.POST)
     public String power(@ModelAttribute("operationModel")  OperationModel operationModel, Model model ){
-        model.addAttribute("Result", calculateSimple.power(operationModel));
+        model.addAttribute("result", calculateSimple.power(operationModel));
         return "AdityaLab/Calculator";
     }
 
     @RequestMapping(value="/calculator", params="factorial", method = RequestMethod.POST)
     public String factorial(@ModelAttribute("operationModel")  OperationModel operationModel, Model model ){
-        model.addAttribute("Result", calculateSimple.factorial(operationModel));
+        model.addAttribute("result", calculateSimple.factorial(operationModel));
         return "AdityaLab/Calculator";
     }
 
     @RequestMapping(value="/calculator", params="clearSimple", method = RequestMethod.POST)
     public String clearSimple(@ModelAttribute("operationModel")  OperationModel operationModel, Model model ){
         model.addAttribute("operationModel",  calculateSimple.clearSimple(operationModel));
-        model.addAttribute("Result", 0);
+        model.addAttribute("result", 0);
         return "AdityaLab/Calculator";
     }
 
     @RequestMapping(value="/calculator", params="clearAdvanced", method = RequestMethod.POST)
     public String clearAdvanced(@ModelAttribute("operationModel")  OperationModel operationModel, Model model ){
         model.addAttribute("operationModel",  calculateSimple.clearAdvanced(operationModel));
-        model.addAttribute("Result", 0);
+        model.addAttribute("result", 0);
         return "AdityaLab/Calculator";
     }
 }
