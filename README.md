@@ -12,6 +12,10 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 
 ![Home Page Screenshot](https://user-images.githubusercontent.com/71394490/112705180-d5cb3f80-8e5a-11eb-9c53-c50d1347e9b0.png)
 
+## Project Plan
+
+Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
+
 ## Team SMART Goals for Mini Review #1
 
 
