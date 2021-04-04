@@ -11,4 +11,9 @@ public class MainController {
     public String Index() {
         return "Index";
     }
+
+    @RequestMapping(method = RequestMethod.GET, value = "/")
+    public String Labs() {
+        return "MiniLabs";
+    }
 }
