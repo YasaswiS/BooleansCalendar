@@ -13,5 +13,8 @@ public class MainController {
         return "Index";
     }
     @GetMapping("/labs")
-    public String MiniLabs() { return "MiniLabs"; }
+    public String MiniLabs() { return "MiniLabsHome"; }
+
+    @GetMapping("/labs/Aditya")
+    public String MiniLabsAditya() { return "MiniLabAdityaPage"; }
 }
