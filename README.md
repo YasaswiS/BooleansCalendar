@@ -60,8 +60,9 @@ Justification:
 Score 8/10
 
 Justification:
--Finished frogs recursion minilab logic
--Created HTML website pages + templating the html pages
+
+- Finished frogs recursion minilab logic
+- Created HTML website pages + templating the html pages
 - Did not create full html page for frogs recursion minilab - (Still not April 12th yet, but I didn't put a full effort that warrants a 10/10).
 
 ---------------------------------------------------------------- Week 0 & Week 1 ----------------------------
