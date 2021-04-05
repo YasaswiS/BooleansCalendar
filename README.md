@@ -16,9 +16,9 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
+Week 0 & Week 1 ---------------------------------------------------------------------------------------------------------
+
 ## Team SMART Goals for Mini Review #1
-
-
 
 | Smart Goal 1 | Description |
 | --- | --- |
