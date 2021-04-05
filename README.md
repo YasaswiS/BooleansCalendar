@@ -16,6 +16,18 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
+## Self Grading
+
+###### Aditya Surapaneni
+
+Score: 10/10
+
+Justification:
+
+- All of the criteria outlined on the "End Sprint #1" assignment on Canvas are met.
+- Finished all of the work I was assigned by the Scrum Master, such as the creation of the website via the use of HTML & CSS, the creation of the Recursion Mini Lab logic, etc.
+- Contributed to the entire team effort when possible so as not to let the team fall down.
+
 -------------------------------------------------- Week 0 & Week 1 --------------------------------------------------
 
 ## Team SMART Goals for Mini Review #1
