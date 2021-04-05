@@ -53,7 +53,7 @@ Justification:
 - Finished personal recursion minilab - having difficulties uploading lab
 - Finished all work outnlined by Scrum Master at the begenning of the week.
 - Researched Google Calendar API integration - will be up by this week.
-- I was unable to figure out how to get the recursion lab up, so I have put up a different recursion lab with logarithms that I have done previously.
+- I was unable to figure out how to get the recursion lab up, so I have put up a different recursion lab with logarithms that I have done previously - did not accomplish as much as I wanted to this week so I am taking off 2 points.
 
 ---------------------------------------------------------------- Week 0 & Week 1 ----------------------------
 
