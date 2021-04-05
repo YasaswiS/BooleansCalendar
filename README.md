@@ -55,6 +55,15 @@ Justification:
 - Researched Google Calendar API integration - will be up by this week.
 - I was unable to figure out how to get the recursion lab up, so I have put up a different recursion lab with logarithms that I have done previously - did not accomplish as much as I wanted to this week so I am taking off 2 points.
 
+###### Vihan Jayaraman
+
+Score 8/10
+
+Justification:
+-Finished frogs recursion minilab logic
+-Created HTML website pages + templating the html pages
+- Did not create full html page for frogs recursion minilab - (Still not April 12th yet, but I didn't put a full effort that warrants a 10/10).
+
 ---------------------------------------------------------------- Week 0 & Week 1 ----------------------------
 
 ## Team SMART Goals for Mini Review #1
