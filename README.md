@@ -29,6 +29,8 @@ Justification:
 - Contributed to the entire team effort when possible so as not to let the team fall down.
 - I feel as if I did not accomplish enough during this week, though, so I'm taking a point off.
 
+------------------------------------------------------------------------------------------------------------
+
 ###### Yasaswi Singamneni
 
 Score: 8/10
@@ -38,7 +40,8 @@ Justification:
 - Finished personal minilab.
 - Finished all work outnlined by Scrum Master at the begenning of the week.
 - Couldn't help on deployment or integrating the minilab with the main website so I took off 2 points.
--------------------------------------------------- Week 0 & Week 1 --------------------------------------------------
+
+---------------------------------------------------------------- Week 0 & Week 1 ---------------------------------------------------------------
 
 ## Team SMART Goals for Mini Review #1
 
