@@ -20,13 +20,14 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 ###### Aditya Surapaneni
 
-Score: 10/10
+Score: 9/10
 
 Justification:
 
 - All of the criteria outlined on the "End Sprint #1" assignment on Canvas are met.
 - Finished all of the work I was assigned by the Scrum Master, such as the creation of the website via the use of HTML & CSS, the creation of the Recursion Mini Lab logic, etc.
 - Contributed to the entire team effort when possible so as not to let the team fall down.
+- I feel as if I did not accomplish enough during this week, though, so I'm taking a point off.
 
 -------------------------------------------------- Week 0 & Week 1 --------------------------------------------------
 
