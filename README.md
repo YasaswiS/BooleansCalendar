@@ -41,7 +41,21 @@ Justification:
 - Finished all work outnlined by Scrum Master at the begenning of the week.
 - Couldn't help on deployment or integrating the minilab with the main website so I took off 2 points.
 
----------------------------------------------------------------- Week 0 & Week 1 ---------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------
+
+###### Neil Sahai
+
+Score: 8/10
+
+Justification:
+
+- Finished personal recursion minilab - having difficulties uploading lab
+- Finished all work outnlined by Scrum Master at the begenning of the week.
+- Researched Google Calendar API integration - will be up by this week.
+- I was unable to figure out how to get the recursion lab up, so I have put up a different recursion lab with logarithms that I have done previously.
+
+---------------------------------------------------------------- Week 0 & Week 1 ----------------------------
 
 ## Team SMART Goals for Mini Review #1
 
