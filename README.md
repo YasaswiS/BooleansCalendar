@@ -21,6 +21,7 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 ###### Aditya Surapaneni
 
 - Click [here](https://spring-boot-calculator.herokuapp.com/calculator) to access the Recursion Lab.
+- The Ticket for my Recursion Mini Lab can be found under the "In Progress" section [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1).
 - I have created a calculator, which utilizes Recursion for a few of the functions, such as the Fibonacci & the Factorial.
 - I have written multiple algorithms for the Factorial, including the use of Recursion, For Loops, While Loops, etc.
 
