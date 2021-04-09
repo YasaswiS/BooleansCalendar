@@ -16,6 +16,16 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
+## Recursion Labs
+
+###### Aditya Surapaneni
+
+- Click [here] to access the Recursion Lab.
+- I have created a calculator, which utilizes Recursion for a few of the functions, such as the Fibonacci & the Factorial.
+- I have written multiple algorithms for the Factorial, including the use of Recursion, For Loops, While Loops, etc.
+
+---------------------------------------------------------------- Week 2 ----------------------------
+
 ## Self Grading
 
 ###### Aditya Surapaneni
