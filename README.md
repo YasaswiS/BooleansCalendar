@@ -18,6 +18,8 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 ---------------------------------------------------------------- Week 3 ----------------------------
 
+## Self Grading
+
 ###### Aditya Surapaneni
 
 - Click [here](https://spring-boot-calculator.herokuapp.com/calculator) to access the Recursion Lab.
@@ -47,7 +49,7 @@ Improvements: - Better Aesthetics
 
 ---------------------------------------------------------------- Week 2 ----------------------------
 
-
+## Self Grading
 
 ###### Aditya Surapaneni
 
