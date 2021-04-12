@@ -12,7 +12,7 @@ public class MainController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/")
     public String Index() {
-        return "index";
+        return "Index";
     }
     @GetMapping("/labs")
     public String MiniLabs() { return "MiniLabsHome"; }

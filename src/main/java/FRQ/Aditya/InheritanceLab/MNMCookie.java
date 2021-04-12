@@ -1,4 +1,6 @@
-package InhertanceLabs.AdityaInheritance;
+package FRQ.Aditya.InheritanceLab;
+
+import FRQ.Aditya.InheritanceLab.Cookie;
 
 class MNMCookie extends Cookie
 {

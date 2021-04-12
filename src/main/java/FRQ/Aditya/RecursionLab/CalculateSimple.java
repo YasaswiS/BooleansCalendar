@@ -1,4 +1,4 @@
-package FRQ.Aditya;
+package FRQ.Aditya.RecursionLab;
 
 import org.springframework.stereotype.Service;
 import java.lang.Math;

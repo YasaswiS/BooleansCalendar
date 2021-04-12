@@ -1,4 +1,4 @@
-package InhertanceLabs.AdityaInheritance;
+package FRQ.Aditya.InheritanceLab;
 
 class Cookie
 {

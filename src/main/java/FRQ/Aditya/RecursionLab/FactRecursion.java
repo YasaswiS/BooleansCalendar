@@ -1,4 +1,4 @@
-package RecursionLabs.AdityaRecursion;
+package FRQ.Aditya.RecursionLab;
 
 import java.util.Scanner;
 class FactRecursion
