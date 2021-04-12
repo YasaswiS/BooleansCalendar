@@ -10,17 +10,17 @@ public class MainController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/")
     private String Index() {
-        return "Index";
+        return "index";
     }
     @GetMapping("/labs")
-    private String MiniLabs() { return "MiniLabsHome"; }
+    public String MiniLabs() { return "MiniLabsHome"; }
 
     @GetMapping("/labs/Aditya")
-    private String MiniLabsAditya() { return "MiniLabAdityaPage"; }
+    public String MiniLabsAditya() { return "MiniLabAdityaPage"; }
 
     @GetMapping("/labs/Vihan/river")
-    private String River() { return "labs/Vihan/River-Recursion";}
+    public String River() { return "labs/Vihan/River-Recursion";}
 
     @GetMapping("/BooleansCalendar")
-    private String BooleansCalendar() {return "Calendar";}
+    public String BooleansCalendar() {return "Calendar";}
 }
