@@ -14,6 +14,7 @@ public class MainController {
     public String Index() {
         return "Index";
     }
+
     @GetMapping("/labs")
     public String MiniLabs() { return "MiniLabsHome"; }
 
