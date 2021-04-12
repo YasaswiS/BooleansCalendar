@@ -1,7 +1,7 @@
 package com.booleans.calendar.FRQ.Aditya.RecursionLab;
 
 import java.util.Scanner;
-class FactFortLoop
+class FactForLoop
 {
     public static void main(String [] args)
     {
