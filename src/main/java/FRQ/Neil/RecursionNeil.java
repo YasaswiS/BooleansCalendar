@@ -1,4 +1,4 @@
-package RecursionLabs;
+package FRQ.Neil;
 
 public class RecursionNeil {
     public int fact(int n) {

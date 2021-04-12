@@ -1,4 +1,4 @@
-package RecursionLabs.AdityaRecursion;
+package FRQ.Aditya;
 
 public class OperationModel {
 

@@ -1,6 +1,5 @@
-package RecursionLabs.AdityaRecursion;
+package FRQ.Aditya;
 
-import RecursionLabs.AdityaRecursion.OperationModel;
 import org.springframework.stereotype.Service;
 import java.lang.Math;
 

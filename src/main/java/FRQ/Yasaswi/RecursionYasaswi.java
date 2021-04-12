@@ -1,4 +1,4 @@
-package RecursionLabs;
+package FRQ.Yasaswi;
 
 public class RecursionYasaswi {
     public int fact(int n) {
