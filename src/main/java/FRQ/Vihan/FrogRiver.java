@@ -1,4 +1,4 @@
-package RecursionLabs;
+package FRQ.Vihan;
 
 public class FrogRiver {
 
