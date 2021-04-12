@@ -31,11 +31,11 @@ public class MainController {
     @RequestMapping(value = "/labs/Vihan/river", method = {RequestMethod.GET, RequestMethod.POST})
     public String PostRiver(@RequestParam(value = "rocks", required = false, defaultValue = "3") String rocks, Model model) {
 
-        FrogRiver river = new FrogRiver();
         int numrocks = Integer.parseInt(rocks);
+        FrogRiver river = new FrogRiver(numrocks);
 
-        model.addAttribute("paths", river.PathsToNthStone(numrocks));
-
+        model.addAttribute("paths", String.valueOf(river.getPaths()));
+        model.addAttribute("riverTime", String.valueOf(river.getTimeElapsed()));
 
         return "labs/Vihan/River-Recursion";
     }

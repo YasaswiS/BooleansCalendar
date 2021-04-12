@@ -1,8 +1,19 @@
 package FRQ.Vihan;
 
+import java.time.Duration;
+import java.time.Instant;
 public class FrogRiver {
+    Duration timeElapsed;
+    int paths;
 
-    public static int PathsToNthStone(int n) {
+    public FrogRiver(int n) {
+        Instant start = Instant.now();
+        paths = PathsToNthStone(n);
+        Instant end = Instant.now();
+
+        timeElapsed = Duration.between(start,end);
+    }
+    public int PathsToNthStone(int n) {
         if (n == 1 || n==0) {
             return 1;
         } else {
@@ -11,10 +22,11 @@ public class FrogRiver {
 
     }
 
-    public static void main(String[] args) {
-        FrogRiver test = new FrogRiver();
-
-        System.out.println(test.PathsToNthStone(3));
+    public int getPaths() {
+        return this.paths;
+    }
+    public double getTimeElapsed() {
+        return this.timeElapsed.getNano();
     }
 
 }
