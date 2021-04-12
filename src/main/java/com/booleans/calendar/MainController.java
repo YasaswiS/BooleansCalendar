@@ -1,9 +1,10 @@
 package com.booleans.calendar;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.ui.Model;
+
+import FRQ.Vihan.FrogRiver;
 
 @Controller
 public class MainController {
@@ -18,12 +19,26 @@ public class MainController {
     @GetMapping("/labs/Aditya")
     public String MiniLabsAditya() { return "MiniLabAdityaPage"; }
 
-    @GetMapping("/labs/Vihan/river")
-    public String River() { return "labs/Vihan/River-Recursion";}
-
     @GetMapping("/BooleansCalendar")
     public String BooleansCalendar() {return "Calendar";}
 
     @GetMapping("/calculator")
     public String Calculator() {return "labs/Aditya/Calculator";}
+
+    /*@GetMapping("/labs/Vihan/river")
+    public String river() {return "/labs/Vihan/River-Recursion";}
+*/
+    @RequestMapping(value = "/labs/Vihan/river", method = {RequestMethod.GET, RequestMethod.POST})
+    public String PostRiver(@RequestParam(value = "rocks", required = false, defaultValue = "3") String rocks, Model model) {
+
+        FrogRiver river = new FrogRiver();
+        int numrocks = Integer.parseInt(rocks);
+
+        model.addAttribute("paths", river.PathsToNthStone(numrocks));
+
+
+        return "labs/Vihan/River-Recursion";
+    }
+
+
 }
