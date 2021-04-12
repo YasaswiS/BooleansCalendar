@@ -23,4 +23,7 @@ public class MainController {
 
     @GetMapping("/BooleansCalendar")
     public String BooleansCalendar() {return "Calendar";}
+
+    @GetMapping("/calculator")
+    public String Calculator() {return "labs/Aditya/Calculator";}
 }

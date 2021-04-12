@@ -4,30 +4,32 @@
     <title>Calculator</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
+
 <body bgcolor="#20BCE3">
 
-<h1>Basic Arithmetic Functions</h1>
-<form action="#" th:action="@{/calculator}" th:object="${operationModel}" method="POST">
-    <input type="text" th:field="*{a}"/>
-    <input type="text" th:field="*{b}"/>
-    <p>
-        <input type="submit" class="button" name="add" value="+"/>
-        <input type="submit" class="button" name="subtract" value="-"/>
-        <input type="submit" class="button" name="multiply" value="*"/>
-        <input type="submit" class="button" name="divide" value="/"/>
-        <input type="submit" class="button" name="clearSimple" value="C"/>
-    </p>
+    <h1>Basic Arithmetic Functions</h1>
+    <form action="#" th:action="@{/calculator}" th:object="${OperationModel}" method="POST">
+        <input type="text" th:field="*{a}"/>
+        <input type="text" th:field="*{b}"/>
+        <p>
+            <input type="submit" class="button" name="add" value="+"/>
+            <input type="submit" class="button" name="subtract" value="-"/>
+            <input type="submit" class="button" name="multiply" value="*"/>
+            <input type="submit" class="button" name="divide" value="/"/>
+            <input type="submit" class="button" name="clearSimple" value="C"/>
+        </p>
 
-    <h1>Advanced Functions</h1>
-    <input type="text" th:field="*{c}"/>
-    <p>
-        <input type="submit" class="button" name="fibonacci" value="Fib"/>
-        <input type="submit" class="button" name="factorial" value="Fact"/>
-        <input type="submit" class="button" name="sqrt" value=&#8730 />
-        <input type="submit" class="button" name="power" value="^"/>
-        <input type="submit" class="button" name="clearAdvanced" value="C"/>
-    </p>
-    <h1><p th:text="'Result: ' + ${result}"/></h1>
-</form>
+        <h1>Advanced Functions</h1>
+        <input type="text" th:field="*{c}"/>
+        <p>
+            <input type="submit" class="button" name="fibonacci" value="Fib"/>
+            <input type="submit" class="button" name="factorial" value="Fact"/>
+            <input type="submit" class="button" name="sqrt" value=&#8730 />
+            <input type="submit" class="button" name="power" value="^"/>
+            <input type="submit" class="button" name="clearAdvanced" value="C"/>
+        </p>
+        <h1><p th:text="'Result: ' + ${result}"/></h1>
+    </form>
 </body>
+
 </html>
