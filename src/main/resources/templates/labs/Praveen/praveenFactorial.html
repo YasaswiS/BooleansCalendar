@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments/headfile :: head">
+    <title>Factorial</title>
+</head>
+<body>
+<div>
+    <form id="Fact" action="/labs/Praveen/dafact" method="POST" >
+        <label for="totfact">What Factorial Number do you want to do?</label>
+        <input name="totfact" id="totfact" >
+        <button>Go!</button>
+    </form>
+
+    <h1><p th:text="'Result: '+${paths}"/></h1>
+</div>
+
+
+</body>
+</html>

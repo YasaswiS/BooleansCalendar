@@ -1,5 +1,6 @@
 package com.booleans.calendar;
 
+import FRQ.Praveen.RecursionPraveen;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.ui.Model;
@@ -38,6 +39,18 @@ public class MainController {
         model.addAttribute("riverTime", String.valueOf(river.getTimeElapsed()));
 
         return "labs/Vihan/River-Recursion";
+    }
+
+    @RequestMapping(value = "/labs/Praveen/dafact", method = {RequestMethod.GET, RequestMethod.POST})
+    public String Factorial(@RequestParam(value = "totfact", required = false, defaultValue = "3") String totfact, Model model) {
+
+        RecursionPraveen factorial = new RecursionPraveen();
+        int factnum = Integer.parseInt(totfact);
+
+        model.addAttribute("paths", factorial.fact(factnum));
+
+
+        return "labs/Praveen/praveenFactorial";
     }
 
 
