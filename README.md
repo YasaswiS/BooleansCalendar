@@ -31,11 +31,11 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 Score: 10/10
 
 Justification: All criteria met for individual project requirements:
-- Individual section on labs page (separate dropdown menu)
-- Individual Mini Lab - River Recursion (from tutorial) - completely functional
-- Default input of 3 rocks
-- Able to adjust output by allowing user to enter in the desired number of paths
-- WOW: elapsed time for each run
+- Individual section on labs page (separate dropdown menu): [Dropdown section in HTML](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/resources/templates/MiniLabsHome.html#L176)
+- Individual Mini Lab - River Recursion (from tutorial) - completely functional: [HTML](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Vihan/River-Recursion.html#L8)[Java](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/FRQ/Vihan/FrogRiver.java)
+- Default input of 3 rocks: [RequestParam](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/java/com/booleans/calendar/MainController.java#L32)
+- Able to adjust output by allowing user to enter in the desired number of paths: [Form for input](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/resources/templates/labs/Vihan/River-Recursion.html#L8)
+- WOW: elapsed time for each run: [Function] (https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/java/FRQ/Vihan/FrogRiver.java#L28)
 
 - Explanation paragraph so the user knows what they are doing
 
