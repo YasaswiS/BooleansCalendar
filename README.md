@@ -25,7 +25,7 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 - Click [here](https://spring-boot-calculator.herokuapp.com/calculator) to access the Recursion Lab.
 - The Ticket for my Recursion Mini Lab can be found under the "In Progress" section [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1).
 - I have created a calculator, which utilizes Recursion for a few of the functions, such as the Fibonacci & the Factorial.
-- I have written multiple algorithms for the Factorial, including the use of [Recursion](![image](https://user-images.githubusercontent.com/71394490/114468815-eab90a00-9ba0-11eb-874a-1a44a9589fd0.png)
+- I have written multiple algorithms for the Factorial, including the use of [Recursion](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/RecursionLab/FactRecursion.java)
 ), [For Loops](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/RecursionLab/FactForLoop.java), [While Loops](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/RecursionLab/FactWhileLoop.java), etc. This is my WOW.
 - Our team was having difficulty mapping our Recursion Lab to our existing website, so that's why my Recursion Lab is placed on a separate Heroku application. We will resolve this issue by moving to AWS in the future.
 
