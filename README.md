@@ -25,7 +25,7 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 - I have created a calculator, which utilizes Recursion for a few of the functions, such as the Fibonacci & the Factorial.
 - I have written multiple algorithms for the Factorial, including the use of Recursion, For Loops, While Loops, etc.
 ## Self Grading
----------------------------------------------------------------- 4/12/2021 ----------------------------
+## ---------------------------------------------------------------- 4/12/2021 ----------------------------
 
 ## Vihan Jayaraman
 Score: 10/10
