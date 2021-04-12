@@ -57,6 +57,7 @@ public class MainController {
         int factnum = Integer.parseInt(totfact);
 
         model.addAttribute("paths", factorial.fact(factnum));
+        model.addAttribute("paths", factorial.loop(factnum));
 
 
         return "LabsHTMLPages/Neil/NeilFactorial";
