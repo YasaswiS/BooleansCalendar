@@ -16,21 +16,22 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
-## Recursion Labs
+---------------------------------------------------------------- Week 3 ----------------------------
 
 ###### Aditya Surapaneni
 
 - Click [here](https://spring-boot-calculator.herokuapp.com/calculator) to access the Recursion Lab.
 - The Ticket for my Recursion Mini Lab can be found under the "In Progress" section [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1).
 - I have created a calculator, which utilizes Recursion for a few of the functions, such as the Fibonacci & the Factorial.
-- I have written multiple algorithms for the Factorial, including the use of Recursion, For Loops, While Loops, etc.
-## Self Grading
-## ---------------------------------------------------------------- 4/12/2021 ----------------------------
+- I have written multiple algorithms for the Factorial, including the use of Recursion, For Loops, While Loops, etc. This is my WOW.
+- Our team was having difficulty mapping our Recursion Lab to our existing website, so that's why my Recursion Lab is placed on a separate Heroku application. We will resolve this issue by moving to AWS in the future.
 
-## Vihan Jayaraman
+###### Vihan Jayaraman
+
 Score: 10/10
 
-Justification: All criteria met for individual project requirements:
+Justification:
+- All criteria met for individual project requirements:
 - Individual section on labs page (separate dropdown menu): [Dropdown section in HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/resources/templates/MiniLabsHome.html#L176)
 - Individual Mini Lab - River Recursion (from tutorial) - completely functional: [HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Vihan/River-Recursion.html#L8) [Java class](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/FRQ/Vihan/FrogRiver.java)
 - Default input of 3 rocks: [RequestParam configuration to have default value](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/java/com/booleans/calendar/MainController.java#L32)
@@ -44,7 +45,7 @@ NOTE: For inputs of around 10 or less rocks, the algorithm completes so quickly 
 Improvements: - Better Aesthetics
               - Add a scaled graphic of a river and the frog crossing the river.
 
-## ---------------------------------------------------------------- Week 2 ----------------------------
+---------------------------------------------------------------- Week 2 ----------------------------
 
 
 
