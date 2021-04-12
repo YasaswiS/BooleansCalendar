@@ -9,12 +9,18 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class MainController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/")
-    public String Index() {
+    private String Index() {
         return "Index";
     }
     @GetMapping("/labs")
-    public String MiniLabs() { return "MiniLabsHome"; }
+    private String MiniLabs() { return "MiniLabsHome"; }
 
     @GetMapping("/labs/Aditya")
-    public String MiniLabsAditya() { return "MiniLabAdityaPage"; }
+    private String MiniLabsAditya() { return "MiniLabAdityaPage"; }
+
+    @GetMapping("/labs/Vihan/river")
+    private String River() { return "labs/Vihan/River-Recursion";}
+
+    @GetMapping("/BooleansCalendar")
+    private String BooleansCalendar() {return "Calendar";}
 }
