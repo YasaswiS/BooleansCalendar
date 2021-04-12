@@ -44,7 +44,7 @@ NOTE: For inputs of around 10 or less rocks, the algorithm completes so quickly 
 Improvements: - Better Aesthetics
               - Add a scaled graphic of a river and the frog crossing the river.
 
----------------------------------------------------------------- Week 2 ----------------------------
+## ---------------------------------------------------------------- Week 2 ----------------------------
 
 
 
