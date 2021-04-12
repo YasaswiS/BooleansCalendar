@@ -37,7 +37,7 @@ Justification: All criteria met for individual project requirements:
 - Able to adjust output by allowing user to enter in the desired number of paths: [Form for inputting number of rocks](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/resources/templates/labs/Vihan/River-Recursion.html#L8)
 - WOW: elapsed time for each run: [Time Elapsed Function](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/java/FRQ/Vihan/FrogRiver.java#L28)
 
-- Explanation paragraph so the user knows what they are doing
+- Explanation paragraph so the user knows what they are doing: [Paragraph in html](https://github.com/AdityaS1426/BooleansCalendar/blob/17a9691429a4299d2b94b78b1d43e6853fadff71/src/main/resources/templates/labs/Vihan/River-Recursion.html#L13)
 
 NOTE: For inputs of around 10 or less rocks, the algorithm completes so quickly that the timeelapsed function cannot register, which means it returns an output of 0 nanoseconds, (although this is obviously not the case).
 
