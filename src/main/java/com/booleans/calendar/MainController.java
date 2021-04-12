@@ -4,14 +4,14 @@ import FRQ.Praveen.RecursionPraveen;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.ui.Model;
-
+import FRQ.Neil.RecursionNeil;
 import FRQ.Vihan.FrogRiver;
 
 @Controller
 public class MainController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/")
-    private String Index() {
+    public String Index() {
         return "index";
     }
     @GetMapping("/labs")
@@ -51,6 +51,18 @@ public class MainController {
 
 
         return "labs/Praveen/praveenFactorial";
+    }
+
+    @RequestMapping(value = "/labs/Neil/FactorialRecursion", method = {RequestMethod.GET, RequestMethod.POST})
+    public String FactorialNeil(@RequestParam(value = "totfact", required = false, defaultValue = "1") String totfact, Model model) {
+
+        RecursionNeil factorial = new RecursionNeil();
+        int factnum = Integer.parseInt(totfact);
+
+        model.addAttribute("paths", factorial.fact(factnum));
+
+
+        return "labs/Neil/neilfactorial";
     }
 
 
