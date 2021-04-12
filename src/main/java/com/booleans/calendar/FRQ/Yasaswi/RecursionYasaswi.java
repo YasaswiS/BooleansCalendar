@@ -1,4 +1,4 @@
-package FRQ.Yasaswi;
+package com.booleans.calendar.FRQ.Yasaswi;
 
 public class RecursionYasaswi {
     public int fact(int n) {

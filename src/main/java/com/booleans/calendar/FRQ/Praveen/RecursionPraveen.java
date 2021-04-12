@@ -1,4 +1,4 @@
-package FRQ.Praveen;
+package com.booleans.calendar.FRQ.Praveen;
 
 public class RecursionPraveen {
     public int fact(int n) {

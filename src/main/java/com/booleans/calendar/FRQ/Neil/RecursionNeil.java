@@ -1,6 +1,4 @@
-package FRQ.Neil;
-
-import FRQ.Praveen.RecursionPraveen;
+package com.booleans.calendar.FRQ.Neil;
 
 public class RecursionNeil {
     public int fact(int n) {

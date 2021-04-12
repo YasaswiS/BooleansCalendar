@@ -1,4 +1,4 @@
-package FRQ.Aditya.RecursionLab;
+package com.booleans.calendar.FRQ.Aditya.RecursionLab;
 
 import java.util.Scanner;
 class FactRecursion

@@ -1,11 +1,11 @@
 package com.booleans.calendar;
 
-import FRQ.Praveen.RecursionPraveen;
+import com.booleans.calendar.FRQ.Praveen.RecursionPraveen;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.ui.Model;
-import FRQ.Neil.RecursionNeil;
-import FRQ.Vihan.FrogRiver;
+import com.booleans.calendar.FRQ.Neil.RecursionNeil;
+import com.booleans.calendar.FRQ.Vihan.FrogRiver;
 
 @Controller
 public class MainController {
