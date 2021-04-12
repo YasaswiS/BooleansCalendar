@@ -12,23 +12,20 @@ public class MainController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/")
     public String Index() {
-        return "index";
+        return "Index";
     }
     @GetMapping("/labs")
     public String MiniLabs() { return "MiniLabsHome"; }
-
-    @GetMapping("/labs/Aditya")
-    public String MiniLabsAditya() { return "MiniLabAdityaPage"; }
 
     @GetMapping("/BooleansCalendar")
     public String BooleansCalendar() {return "Calendar";}
 
     @GetMapping("/calculator")
-    public String Calculator() {return "labs/Aditya/Calculator";}
+    public String Calculator() {return "LabsHTMLPages/Aditya/AdityaRecursionCalculator";}
 
     /*@GetMapping("/labs/Vihan/river")
-    public String river() {return "/labs/Vihan/River-Recursion";}
-*/
+    public String river() {return "/LabsHTMLPages/Vihan/RiverRecursion";}*/
+
     @RequestMapping(value = "/labs/Vihan/river", method = {RequestMethod.GET, RequestMethod.POST})
     public String PostRiver(@RequestParam(value = "rocks", required = false, defaultValue = "3") String rocks, Model model) {
 
@@ -38,7 +35,7 @@ public class MainController {
         model.addAttribute("paths", String.valueOf(river.getPaths()));
         model.addAttribute("riverTime", String.valueOf(river.getTimeElapsed()));
 
-        return "labs/Vihan/River-Recursion";
+        return "LabsHTMLPages/Vihan/RiverRecursion";
     }
 
     @RequestMapping(value = "/labs/Praveen/dafact", method = {RequestMethod.GET, RequestMethod.POST})
@@ -50,7 +47,7 @@ public class MainController {
         model.addAttribute("paths", factorial.fact(factnum));
 
 
-        return "labs/Praveen/praveenFactorial";
+        return "LabsHTMLPages/Praveen/PraveenFactorial";
     }
 
     @RequestMapping(value = "/labs/Neil/FactorialRecursion", method = {RequestMethod.GET, RequestMethod.POST})
@@ -62,7 +59,7 @@ public class MainController {
         model.addAttribute("paths", factorial.fact(factnum));
 
 
-        return "labs/Neil/neilfactorial";
+        return "LabsHTMLPages/Neil/NeilFactorial";
     }
 
 
