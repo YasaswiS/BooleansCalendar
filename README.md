@@ -61,6 +61,7 @@ Recursion Lab
 Inheritance Lab
 
 - Due to issues with deploying to the website, I was unable to get the HTML file for my Inheritance Mini Lab working, so I created a [demonstration video](https://drive.google.com/file/d/1P4HzkeJpJPhy6DnHgj-SUC69sCSxHWah/view?usp=sharing). Our team will migrate to AWS to fix these issues.
+- To test this Mini Lab, after cloning the repository, follow the following file path. SRC/MAIN/JAVA/COM/BOOLEANS/CALENDAR/FRQ/ADITYA/INHERITANCELAB/SHAPETESTER.JAVA.
 - The Ticket for my Inheritance Mini Lab can be found under the "Completed" section [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1).
 - The Inheritance Lab should be in an individual section on the "Labs" page of the website, where my Recursion Lab is located, but due to issues with deployment, I couldn't get it working. A demonstration video can be found above, though. (Separate Dropdown Menu) Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L145) to see the code for the dropdown menu.
 
