@@ -65,6 +65,11 @@ Inheritance Lab
 - The Ticket for my Inheritance Mini Lab can be found under the "Completed" section [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1).
 - The Inheritance Lab should be in an individual section on the "Labs" page of the website, where my Recursion Lab is located, but due to issues with deployment, I couldn't get it working. A demonstration video can be found above, though. (Separate Dropdown Menu) Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L145) to see the code for the dropdown menu.
 
+Improvements
+
+- Move to AWS for ease of use regarding deployment.
+- Create HTML page for Inheritance Mini Lab.
+
 ###### Vihan Jayaraman
 
 Score: 10/10
