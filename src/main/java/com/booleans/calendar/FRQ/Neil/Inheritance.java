@@ -4,46 +4,46 @@ import java.sql.Driver;
 import java.util.ArrayList;
 
 public class Inheritance {
-    public static class Person {
-        private String name;
-        private int grade;
-        private int age;
-        public Person(String name, int grade, int age) {
-            this.name = name;
-            this.grade = grade;
-            this.age = age;
+    public static class Car {
+        private String brand;
+        private String model;
+        private int cost;
+        public Car(String brand, String model, int cost) {
+            this.brand = brand;
+            this.model = model;
+            this.cost = cost;
         }
-        public String getName() {
-            return name;
+        public String getModel() {
+            return model;
         }
-        public int getGrade() {
-            return grade;
+        public String getBrand() {
+            return brand;
         }
-        public int getAge() {
-            return age;
+        public int getCost() {
+            return cost;
         }
         public String returnabout() {
-            return "Name: " + name + ", Grade: " + grade + ", Age: " + age;
+            return "Brand: " + brand + ", Model: " + model + ", Cost: " + cost;
         }
     }
-    public static class Neil extends Person{
-        public Neil (int grade, int age) {super("Neil Sahai", grade, age);}
+    public static class BMW extends Car{
+        public BMW (String model, int cost) {super("BMW", model, cost);}
     }
-    public static class YasaswiS extends Person{
-        public YasaswiS (int grade, int age) {super("Yasaswi Singamneni", grade, age);}
+    public static class Audi extends Car{
+        public Audi (String model, int cost) {super("Audi", model, cost);}
     }
 
     public static void main(String[] args){
-        ArrayList<Person> people = new ArrayList<>();
+        ArrayList<Car> Cars = new ArrayList<>();
 
-        Person person3 = new Person("Eyaad Mir", 11);
-        people.add(person3);
+        BMW BMW = new BMW("I8", 148000);
+        Cars.add(BMW);
 
-        Person person4 = new Person("Praveen Natarajan", 10);
-        people.add(person4);
+        Audi Audi = new Audi("R8", 142000);
+        Cars.add(Audi);
 
-        people.forEach((person -> {
-            System.out.println(people.returnabout());
+        Cars.forEach((car -> {
+            System.out.println(car.returnabout());
         }));
     }
 
