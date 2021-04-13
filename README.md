@@ -52,7 +52,7 @@ Justification:
 - Began working on the Inheritance Lab, but it is not completely finished. (Visit the Scrum Board for detailed explanation on what is completed.)
 
 I was unable to get the HTML page for the Inheritance Lab Up so I am taking a point off.
-NOTE: Some labs only work on localhost:8080 as we were beginning integration/deployment to AWS. So the Heroku deployed website is not the complete project. If you see a whitelabel, it is a result of this beginning integration. Please clone the repository and run labs from there.
+NOTE: Some labs only work on localhost:8080 as we were beginning integration/deployment to AWS. So the Heroku deployed website is not the complete project. If you see a whitelabel, it is a result of this beginning integration. Please clone the repository and run labs from there by running CalendarApplication.java
 
 Improvements: 
 - Functionality on the newly put up AWS website.
