@@ -43,7 +43,7 @@ public class Inheritance {
         schools.add(Poway);
 
         schools.forEach((school -> {
-            System.out.println(schools.summary());
+            System.out.println(school.summary());
         }));
     }
 
