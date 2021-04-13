@@ -59,6 +59,31 @@ Improvements:
 - Add a time taken function for each of the different methods.
 
 
+
+
+###### Praveen Natarajan
+
+Score: 9/10
+
+Justification:
+- All criteria met for individual project requirements:
+- Individual section on labs page (separate dropdown menu): [Dropdown section in HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L145)
+- Individual Mini Lab - Recursion  - completely functional with Input from User: [HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Praveen/praveenFactorial.html) [Java class](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Praveen/RecursionPraveen.java)
+- Able to adjust output by allowing user to enter in the desired number of paths: [Form for inputting number of rocks](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Neil/NeilFactorial.html)
+- WOW: Recursion through Loops: [Factorial Calculations with Recursion through Loops](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/java/com/booleans/calendar/FRQ/Neil/RecursionNeil.java#L17)
+- Began working on the Inheritance Lab, but it is not completely finished. (Visit the Scrum Board for detailed explanation on what is completed.)
+
+I was unable to get the HTML page for the Inheritance Lab Up so I am taking a point off.
+NOTE: Some labs only work on localhost:8080 as we were beginning integration/deployment to AWS. So the Heroku deployed website is not the complete project. If you see a whitelabel, it is a result of this beginning integration. Please clone the repository and run labs from there.
+
+Improvements: 
+- Functionality on the newly put up AWS website
+- Integrate the Inheritance code to the website
+- Get it off running in heroku so the whitelabel error goes away
+
+
+
+
 ###### Aditya Surapaneni
 
 Score: 9/10
