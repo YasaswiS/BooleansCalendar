@@ -22,7 +22,7 @@ public class Inheritance {
         public int getNumStudents() {
             return students;
         }
-        public String summary() {
+        public static String summary() {
             return "Name: " + name + ", Number of Teachers: " + teachers + ", Number of Students: " + students;
         }
         public String toString() {
