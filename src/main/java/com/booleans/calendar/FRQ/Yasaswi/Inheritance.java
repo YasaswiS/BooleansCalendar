@@ -25,7 +25,7 @@ public class Inheritance {
         public static String summary() {
             return "Name: " + name + ", Number of Teachers: " + teachers + ", Number of Students: " + students;
         }
-        public String toString() {
+        public static String toString() {
             summary();
         }
     }
