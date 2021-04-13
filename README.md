@@ -33,17 +33,26 @@ Justification:
 
 NOTE: Our labs only work on localhost:8080 as we were beginning integration to AWS. So the Heroku deployed website is not the complete project.
 
-Improvements: - Functionality on the newly put up AWS website
-              - Add a time taken function for each of the different methods.
+Improvements: 
+
+- Functionality on the newly put up AWS website.
+- Add a time taken function for each of the different methods.
 
 
 ###### Aditya Surapaneni
 
+Recursion Lab
+
 - Click [here](https://spring-boot-calculator.herokuapp.com/calculator) to access the Recursion Lab.
 - The Ticket for my Recursion Mini Lab can be found under the "Completed" section [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1).
+- The Recursion Lab is in an individual section on the "Labs" page of the website. (Separate Dropdown Menu) Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L145) to see the code for the dropdown menu.
 - I have created a calculator, which utilizes Recursion for a few of the functions, such as the Fibonacci & the Factorial.
 - I have written multiple algorithms for the Factorial, including the use of [Recursion](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/RecursionLab/FactRecursion.java), [For Loops](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/RecursionLab/FactForLoop.java), [While Loops](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/RecursionLab/FactWhileLoop.java), etc. This is my WOW.
 - Our team was having difficulty mapping our Recursion Lab to our existing website, so that's why my Recursion Lab is placed on a separate Heroku application. We will resolve this issue by moving to AWS in the future.
+
+Inheritance Lab
+
+- 
 
 ###### Vihan Jayaraman
 
