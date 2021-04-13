@@ -22,7 +22,7 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 ###### Neil Sahai
 
-Score: 10/10
+Score: 9/10
 
 Justification:
 - All criteria met for individual project requirements:
@@ -30,11 +30,12 @@ Justification:
 - Individual Mini Lab - Recursion  - completely functional with Input from User: [HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Neil/NeilFactorial.html) [Java class](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Neil/RecursionNeil.java)
 - Able to adjust output by allowing user to enter in the desired number of paths: [Form for inputting number of rocks](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Neil/NeilFactorial.html)
 - WOW: Recursion through Loops: [Factorial Calculations with Recursion through Loops](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/java/com/booleans/calendar/FRQ/Neil/RecursionNeil.java#L17)
+- Began working on the Inheritance Lab, but it is not completely finished. (Visit the Scrum Board for detailed explanation on what is completed.)
 
-NOTE: Our labs only work on localhost:8080 as we were beginning integration to AWS. So the Heroku deployed website is not the complete project.
+I was unable to get the HTML page for the Inheritance Lab Up so I am taking a point off.
+NOTE: Some labs only work on localhost:8080 as we were beginning integration/deployment to AWS. So the Heroku deployed website is not the complete project. If you see a whitelabel, it is a result of this beginning integration. Please clone the repository and run labs from there.
 
 Improvements: 
-
 - Functionality on the newly put up AWS website.
 - Add a time taken function for each of the different methods.
 
@@ -64,11 +65,6 @@ Inheritance Lab
 - To test this Mini Lab, after cloning the repository, follow the following file path. SRC/MAIN/JAVA/COM/BOOLEANS/CALENDAR/FRQ/ADITYA/INHERITANCELAB/SHAPETESTER.JAVA.
 - The Ticket for my Inheritance Mini Lab can be found under the "Completed" section [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1).
 - The Inheritance Lab should be in an individual section on the "Labs" page of the website, where my Recursion Lab is located, but due to issues with deployment, I couldn't get it working. A demonstration video can be found above, though. (Separate Dropdown Menu) Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L145) to see the code for the dropdown menu.
-
-Improvements
-
-- Move to AWS for ease of use regarding deployment.
-- Create HTML page for Inheritance Mini Lab.
 
 ###### Vihan Jayaraman
 
