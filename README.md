@@ -27,11 +27,13 @@ Score: 9/10
 Recursion Lab:
 - Individual section on labs page (separate dropdown menu): [Dropdown section in HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L169)
 - Individual Mini Lab - [Recursion to calculate Greatest Common Divisor](https://github.com/YasaswiS/SpringBootCalculator/blob/master/src/main/java/com/calculator/debugdatabandits/service/CalculateSimple.java#L18)
+- Default Value explained on calculator webpage
 - WOW Factor: Multiple functions including GCD included in a calculated with css
 
 
 Inheritance:
 - Individual section on labs page (separate dropdown menu): [Dropdown section in HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L169) (will be added to link 2 in the future)
+- [Default Values Initialized in code](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Yasaswi/Inheritance.java#L32) and will be ready to display on the website after integration
 - Wrote [Java Inheritence minilab code](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Yasaswi/Inheritance.java) but I haven't integrated it with the website yet so I'm taking a point off
 
 
