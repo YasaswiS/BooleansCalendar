@@ -26,7 +26,7 @@ public class Inheritance {
             return "Name: " + name + ", Number of Teachers: " + teachers + ", Number of Students: " + students;
         }
         public String toString() {
-            return self.summary();
+            summary();
         }
     }
     public static class DelNorte extends School{
