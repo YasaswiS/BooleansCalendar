@@ -20,12 +20,29 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 ## Self Grading
 
+###### Neil Sahai
+
+Score: 10/10
+
+Justification:
+- All criteria met for individual project requirements:
+- Individual section on labs page (separate dropdown menu): [Dropdown section in HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L145)
+- Individual Mini Lab - Recursion  - completely functional with Input from User: [HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Neil/NeilFactorial.html) [Java class](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Neil/RecursionNeil.java)
+- Able to adjust output by allowing user to enter in the desired number of paths: [Form for inputting number of rocks](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Neil/NeilFactorial.html)
+- WOW: Recursion through Loops: [Factorial Calculations with Recursion through Loops](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/java/com/booleans/calendar/FRQ/Neil/RecursionNeil.java#L17)
+
+NOTE: Our labs only work on localhost:8080 as we were beginning integration to AWS. So the Heroku deployed website is not the complete project.
+
+Improvements: - Functionality on the newly put up AWS website
+              - Add a time taken function for each of the different methods.
+
+
 ###### Aditya Surapaneni
 
 - Click [here](https://spring-boot-calculator.herokuapp.com/calculator) to access the Recursion Lab.
-- The Ticket for my Recursion Mini Lab can be found under the "In Progress" section [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1).
+- The Ticket for my Recursion Mini Lab can be found under the "Completed" section [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1).
 - I have created a calculator, which utilizes Recursion for a few of the functions, such as the Fibonacci & the Factorial.
-- I have written multiple algorithms for the Factorial, including the use of Recursion, For Loops, While Loops, etc. This is my WOW.
+- I have written multiple algorithms for the Factorial, including the use of [Recursion](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/RecursionLab/FactRecursion.java), [For Loops](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/RecursionLab/FactForLoop.java), [While Loops](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/RecursionLab/FactWhileLoop.java), etc. This is my WOW.
 - Our team was having difficulty mapping our Recursion Lab to our existing website, so that's why my Recursion Lab is placed on a separate Heroku application. We will resolve this issue by moving to AWS in the future.
 
 ###### Vihan Jayaraman
