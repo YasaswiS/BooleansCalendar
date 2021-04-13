@@ -22,11 +22,11 @@ public class Inheritance {
         public int getNumStudents() {
             return students;
         }
-        public static String summary() {
+        public String summary() {
             return "Name: " + name + ", Number of Teachers: " + teachers + ", Number of Students: " + students;
         }
-        public static String toString() {
-            summary();
+        public String toString() {
+            return "Name: " + name + ", Number of Teachers: " + teachers + ", Number of Students: " + students;
         }
     }
     public static class DelNorte extends School{
