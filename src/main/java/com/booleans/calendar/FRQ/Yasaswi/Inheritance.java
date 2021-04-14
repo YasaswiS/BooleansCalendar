@@ -31,8 +31,11 @@ public class Inheritance {
     }
     public static class DelNorte extends School{
         private int numOfApClasses;
-        public DelNorte (int teachers, int students) {super("Del Norte", 2500, 120);}
-        numOfApClasses = 25;
+        public DelNorte (int teachers, int students) {
+            super("Del Norte", 2500, 120);
+            numOfApClasses = 25;
+        }
+        
     }
 
     public static void main(String[] args){
