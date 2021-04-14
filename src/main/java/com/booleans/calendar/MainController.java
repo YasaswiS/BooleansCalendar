@@ -27,7 +27,7 @@ public class MainController {
     /*@GetMapping("/labs/Vihan/river")
     public String river() {return "/LabsHTMLPages/Vihan/RiverRecursion";}*/
 
-    @RequestMapping(value = "/labs/Vihan/river", method = {RequestMethod.GET, RequestMethod.POST})
+    @RequestMapping(value = "/FRQ/Vihan/river", method = {RequestMethod.GET, RequestMethod.POST})
     public String PostRiver(@RequestParam(value = "rocks", required = false, defaultValue = "3") String rocks, Model model) {
 
         int numrocks = Integer.parseInt(rocks);
@@ -36,7 +36,7 @@ public class MainController {
         model.addAttribute("paths", String.valueOf(river.getPaths()));
         model.addAttribute("riverTime", String.valueOf(river.getTimeElapsed()));
 
-        return "LabsHTMLPages/Vihan/RiverRecursion";
+        return "labs/Vihan/RiverRecursion";
     }
 
     @RequestMapping(value = "/labs/Praveen/dafact", method = {RequestMethod.GET, RequestMethod.POST})
@@ -48,10 +48,10 @@ public class MainController {
         model.addAttribute("paths", factorial.fact(factnum));
 
 
-        return "LabsHTMLPages/Praveen/PraveenFactorial";
+        return "labs/Praveen/praveenFactorial";
     }
 
-    @RequestMapping(value = "/labs/Neil/FactorialRecursion", method = {RequestMethod.GET, RequestMethod.POST})
+    @RequestMapping(value = "/FRQ/Neil/FactorialRecursion", method = {RequestMethod.GET, RequestMethod.POST})
     public String FactorialNeil(@RequestParam(value = "totfact", required = false, defaultValue = "1") String totfact, Model model) {
 
         RecursionNeil factorial = new RecursionNeil();
@@ -61,7 +61,7 @@ public class MainController {
         model.addAttribute("paths", factorial.loop(factnum));
 
 
-        return "LabsHTMLPages/Neil/NeilFactorial";
+        return "labs/Neil/NeilFactorial";
     }
 
 
