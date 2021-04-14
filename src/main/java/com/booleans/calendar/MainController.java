@@ -1,5 +1,6 @@
 package com.booleans.calendar;
 
+import com.booleans.calendar.FRQ.Praveen.CarInheritance;
 import com.booleans.calendar.FRQ.Praveen.RecursionPraveen;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -64,5 +65,17 @@ public class MainController {
         return "labs/Neil/NeilFactorial";
     }
 
+    @RequestMapping(value = "/labs/Praveen/Car", method = {RequestMethod.GET, RequestMethod.POST})
+    public String Car(@RequestParam(value = "Gears", required = false, defaultValue = "3") String Gears, @RequestParam(value = "Speed", required = false, defaultValue = "3") String Speed, @RequestParam(value = "Height", required = false, defaultValue = "3") String Height, Model model) {
+
+        CarInheritance car = new CarInheritance();
+        int DaGear = Integer.parseInt(Gears);
+        int DaSpeed = Integer.parseInt(Speed);
+        int DaHeight = Integer.parseInt(Height);
+
+        model.addAttribute("paths", car.);
+
+        return "labs/Praveen/praveenFactorial";
+    }
 
 }
