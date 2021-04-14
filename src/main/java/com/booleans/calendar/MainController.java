@@ -73,7 +73,7 @@ public class MainController {
         int DaSpeed = Integer.parseInt(Speed);
         int DaHeight = Integer.parseInt(Height);
 
-        model.addAttribute("paths", car.);
+        model.addAttribute("paths", car);
 
         return "labs/Praveen/praveenFactorial";
     }
