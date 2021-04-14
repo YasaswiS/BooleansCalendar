@@ -51,7 +51,7 @@ public class MainController {
         return "labs/Praveen/praveenFactorial";
     }
 
-    @RequestMapping(value = "/FRQ/Neil/FactorialRecursion", method = {RequestMethod.GET, RequestMethod.POST})
+    @RequestMapping(value = "/labs/Neil/dafact", method = {RequestMethod.GET, RequestMethod.POST})
     public String FactorialNeil(@RequestParam(value = "totfact", required = false, defaultValue = "1") String totfact, Model model) {
 
         RecursionNeil factorial = new RecursionNeil();
