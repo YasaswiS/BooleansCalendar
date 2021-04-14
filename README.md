@@ -70,7 +70,8 @@ Justification:
 - Individual section on labs page (separate dropdown menu): [Dropdown section in HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L145)
 - Individual Mini Lab - Recursion  - completely functional with Input from User: [HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Praveen/PraveenFactorial.html) [Java class](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Praveen/RecursionPraveen.java)
 - Able to adjust output by allowing user to enter in the desired number of paths: [Form for inputting Factorial number](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Praveen/PraveenFactorial.html)
-- Began working on the Inheritance Lab, but it is not completely finished. (Visit the Scrum Board for detailed explanation on what is completed.)
+- Added inheritance through cars, but have not figured out how to deploy the code, so I am taking off -1 points
+- Began working on the Inheritance Lab, but it is not completely finished. (Visit the Scrum Board for detailed explanation on what is completed.)[Inheritance Java Lab] (https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Praveen/CarInheritance.java)
 - Begin converting the tickets into advanced tickets so it is more clear on what each person does
 
 I was unable to get the HTML page for the Inheritance Lab Up so I am taking a point off.
