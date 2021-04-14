@@ -36,7 +36,12 @@ public class Inheritance {
             super("Del Norte", 2500, 120);
             numOfApClasses = 25;
         }
-        
+    public static class OVMS extends School{
+        private int numOfSciOlyTeams;
+        public OVMS (int teachers, int students) {
+            super("OVMS", 1400, 60);
+            numOfSciOlyTeams = 6;
+        }
     }
 
     public static void main(String[] args){
