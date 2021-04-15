@@ -28,7 +28,7 @@ public class MainController {
     /*@GetMapping("/labs/Vihan/river")
     public String river() {return "/LabsHTMLPages/Vihan/RiverRecursion";}*/
 
-    @RequestMapping(value = "/FRQ/Vihan/river", method = {RequestMethod.GET, RequestMethod.POST})
+    @RequestMapping(value = "/labs/Vihan/RiverRecursion", method = {RequestMethod.GET, RequestMethod.POST})
     public String PostRiver(@RequestParam(value = "rocks", required = false, defaultValue = "3") String rocks, Model model) {
 
         int numrocks = Integer.parseInt(rocks);
