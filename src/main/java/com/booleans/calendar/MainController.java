@@ -2,6 +2,7 @@ package com.booleans.calendar;
 
 import com.booleans.calendar.FRQ.Praveen.CarInheritance;
 import com.booleans.calendar.FRQ.Praveen.RecursionPraveen;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.ui.Model;
@@ -9,7 +10,7 @@ import com.booleans.calendar.FRQ.Neil.RecursionNeil;
 import com.booleans.calendar.FRQ.Vihan.FrogRiver;
 
 @Controller
-public class MainController {
+public class MainController extends SpringBootServletInitializer {
 
     @RequestMapping(method = RequestMethod.GET, value = "/")
     public String Index() {
