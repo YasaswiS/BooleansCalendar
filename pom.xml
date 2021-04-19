@@ -13,7 +13,6 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <!--WAR file declaration-->
-    <packaging>war</packaging>
 
     <name>calendar</name>
     <description>Demo project for Spring Boot</description>
