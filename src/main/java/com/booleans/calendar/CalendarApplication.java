@@ -2,9 +2,10 @@ package com.booleans.calendar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class CalendarApplication {
+public class CalendarApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         SpringApplication.run(CalendarApplication.class, args);
