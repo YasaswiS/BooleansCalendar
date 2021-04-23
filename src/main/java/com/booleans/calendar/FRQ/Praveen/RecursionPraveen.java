@@ -1,8 +1,6 @@
 package com.booleans.calendar.FRQ.Praveen;
 
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-
-public class RecursionPraveen extends SpringBootServletInitializer {
+public class RecursionPraveen {
     public int fact(int n) {
             if (n == 0) {
             return 1;
