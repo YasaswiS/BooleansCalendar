@@ -18,25 +18,7 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 ## Self Grading
 
-###### Praveen Natarajan
-
-[Link to Sorts Lab Code]
-
-Grade: 4/5
-
-Justifications:
-
-- I have successfully implemented the Insertion sort which can be seen here. [Link to Code]
-- (https://github.com/PNatarajan123/SortsLab/blob/master/src/main/java/Lab/SortInsertion.java)
-- All three data types, Integer, String, POJO (toString) are compatible with my sort methods.
-- The link to the view is built into the individual dropdown section. [HTML Code]
-- (https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/MiniLabsHome.html#L157)
-
-I got help from Aditya's lab in order to get the mappings in order to deploy. I did not get any of the other sorts to successfully deploy, so I am taking off a point. In addition, Vihan and I spent 5 hours this week attempting to deploy, but it nothing worked.
-
 ###### Vihan Jayaraman
-
-[Link to Sorts Lab Code]
 
 Grade: 4/5
 
@@ -69,6 +51,19 @@ Justifications:
 - I used the three different types of sorts, including Insertion Sort, Bubble Sort, & Selection Sort. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/SortsLab/Sort.java#L7-L67) to see the code for the three different types of sorts.
 - I described how each type of sort works, included the "O(n) Time Complexity", & labeled the "Best Case Scenario" & the "Worst Case Scenario". Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaSorts.html#L53-L77) to see the code for this requirement.
 - The ticket for my Sorts Lab can be found by clicking [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1). It's under the "Completed" section of the Scrum Board. It should be at the very bottom.
+
+###### Praveen Natarajan
+
+Grade: 4/5
+
+Justifications:
+
+- I have successfully implemented the Insertion sort which can be seen here. [Link to Code](https://github.com/PNatarajan123/SortsLab/blob/master/src/main/java/Lab/SortInsertion.java)
+- All three data types, Integer, String, POJO (toString) are compatible with my sort methods.
+- The link to the view is built into the individual dropdown section. [HTML Code](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/MiniLabsHome.html#L157)
+- I will add additional comments describing how the sorting algorithms work
+
+I got help from Aditya's lab in order to get the mappings and all of the linkings for the thyme leaf in order to deploy. I did not get any of the other sorts to successfully deploy, so I am taking off a point. In addition, Vihan and I spent 5 hours this week attempting to deploy, but it nothing worked.
 
 ------------------------------------------------------ Week 3 ------------------------------------------------------
 
