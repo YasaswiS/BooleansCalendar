@@ -14,7 +14,7 @@ Click [here](https://booleans-website.herokuapp.com/) to access the website.
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
----------------------------------------------------------------- Week 4 ----------------------------------------------------------------
+------------------------------------------------------ Week 4 ------------------------------------------------------
 
 ## Self Grading
 
@@ -24,13 +24,18 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 NOTE: The link above might take some time to load since the Sorts Lab is deployed on Heroku. Our team is working on deploying to AWS at the moment.
 
+Grade: 5/5
+
+Justifications:
+
+- I met all of the criteria outlined in the "Sorts Lab" assignment on Canvas.
 - I built the Sorts Lab into the individual section of our project. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/SortsLab/Sort.java) to see the Java code for the Sorts Lab.
 - I linked the Sorts Lab under my name in a dropdown menu on the Mini Labs Home Page. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/MiniLabsHome.html#L165) to see the code which controls this function.
 - I built three different types of data for this Sorts Lab. I used Integers, Strings, & toStrings. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/SortsLab/Sort.java#L69-L110) to see the code for each type of data.
 - I used the three different types of sorts, including Insertion Sort, Bubble Sort, & Selection Sort. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/SortsLab/Sort.java#L7-L67) to see the code for the three different types of sorts.
 - I described how each type of sort works, included the "O(n) Time Complexity", & labeled the "Best Case Scenario" & the "Worst Case Scenario". Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaSorts.html#L53-L77) to see the code for this requirement.
 
----------------------------------------------------------------- Week 3 ----------------------------------------------------------------
+------------------------------------------------------ Week 3 ------------------------------------------------------
 
 ## Self Grading
 
@@ -148,7 +153,7 @@ Improvements:
 - Better Aesthetics
 - Add a scaled graphic of a river and the frog crossing the river.
 
----------------------------------------------------------------- Week 2 ----------------------------------------------------------------
+------------------------------------------------------ Week 2 ------------------------------------------------------
 
 ## Self Grading
 
@@ -163,8 +168,6 @@ Justification:
 - Contributed to the entire team effort when possible so as not to let the team fall down.
 - I feel as if I did not accomplish enough during this week, though, so I'm taking a point off.
 
-------------------------------------------------------------------------------------------------------------
-
 ###### Yasaswi Singamneni
 
 Score: 8/10
@@ -174,9 +177,6 @@ Justification:
 - Finished personal lab.
 - Finished all work outnlined by Scrum Master at the begenning of the week.
 - Couldn't help on deployment or integrating the lab with the main website so I took off 2 points.
-
-
-------------------------------------------------------------------------------------------------------------
 
 ###### Neil Sahai
 
