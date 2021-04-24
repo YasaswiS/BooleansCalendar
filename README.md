@@ -14,6 +14,22 @@ Click [here](https://booleans-website.herokuapp.com/) to access the website.
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
+---------------------------------------------------------------- Week 4 ----------------------------------------------------------------
+
+## Self Grading
+
+###### Aditya Surapaneni
+
+[Link to Sorts Lab](https://insertion-sorts-lab.herokuapp.com/sort)
+
+NOTE: The link above might take some time to load since the Sorts Lab is deployed on Heroku. Our team is working on deploying to AWS at the moment.
+
+- I built the Sorts Lab into the individual section of our project. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/SortsLab/Sort.java) to see the Java code for the Sorts Lab.
+- I linked the Sorts Lab under my name in a dropdown menu on the Mini Labs Home Page. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/MiniLabsHome.html#L165) to see the code which controls this function.
+- I built three different types of data for this Sorts Lab. I used Integers, Strings, & toStrings. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/SortsLab/Sort.java#L69-L110) to see the code for each type of data.
+- I used the three different types of sorts, including Insertion Sort, Bubble Sort, & Selection Sort. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/SortsLab/Sort.java#L7-L67) to see the code for the three different types of sorts.
+- I described how each type of sort works, included the "O(n) Time Complexity", & labeled the "Best Case Scenario" & the "Worst Case Scenario". Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaSorts.html#L53-L77) to see the code for this requirement.
+
 ---------------------------------------------------------------- Week 3 ----------------------------------------------------------------
 
 ## Self Grading
