@@ -1,16 +1,20 @@
 package com.booleans.calendar;
 
-import com.booleans.calendar.FRQ.Praveen.CarInheritance;
-import com.booleans.calendar.FRQ.Praveen.RecursionPraveen;
+
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.ui.Model;
-import com.booleans.calendar.FRQ.Neil.RecursionNeil;
-import com.booleans.calendar.FRQ.Vihan.FrogRiver;
 import java.util.ArrayList;
 import java.util.Arrays;
+
 import com.booleans.calendar.FRQ.Vihan.Sorting.Sorts;
+import com.booleans.calendar.FRQ.Vihan.Computer;
+import com.booleans.calendar.FRQ.Praveen.CarInheritance;
+import com.booleans.calendar.FRQ.Praveen.RecursionPraveen;
+import com.booleans.calendar.FRQ.Neil.RecursionNeil;
+import com.booleans.calendar.FRQ.Vihan.FrogRiver;
+
 
 @Controller
 public class MainController extends SpringBootServletInitializer {
@@ -82,30 +86,7 @@ public class MainController extends SpringBootServletInitializer {
         return "labs/Praveen/praveenFactorial";
     }
 
-    @GetMapping("labs/Vihan/Sorts")
-    public String VihanSort() {return "/labs/Vihan/Sorts.html";
-    }
 
-    /*@RequestMapping(value = "/labs/Vihan/sort", method = {RequestMethod.GET, RequestMethod.POST})
-    public String VihanSort(@RequestParam(value = "array", required = false, defaultValue = "default") String array, @RequestParam(value="arrayType", required = false, defaultValue="Integer") String arrayType, Model model) {
-        switch (arrayType) {
-            case "String":
 
-                break;
-            case "Integer":
-                Integer[] test = new Integer[] {1,3,5,1,367,327,812,33312,82394};
-
-                Sorts sort = new Sorts(new ArrayList<Comparable>(Arrays.asList(test)));
-                model.addAttribute("insertionTime", sort.insertionTime);
-                model.addAttribute("selectionTime", sort.selectionTime);
-                model.addAttribute("bubbleTime", sort.bubbleTime);
-                model.addAttribute("arraysMatch", sort.arraysMatch);
-                break;
-            case "POJO":
-                break;
-        }
-
-    return "/labs/Vihan/Sorts";
-    }*/
 
 }

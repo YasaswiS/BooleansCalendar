@@ -11,8 +11,10 @@
 <body>
 <div>
     <p>There are three kinds of sorts, Insertion, Selection, and Bubble</p>
-
-    <form th:action="/labs/Vihan/sorts">
+    <a href="https://www.geeksforgeeks.org/insertion-sort/">Insertion</a>
+    <a href="https://www.geeksforgeeks.org/selection-sort/">Selection</a>
+    <a href="https://www.geeksforgeeks.org/bubble-sort/">Bubble</a>
+    <form th:action="@{Sorts}">
 
         <div>
             <legend>Type of Data:</legend>
@@ -20,23 +22,32 @@
             <label for="integer">Integer</label>
             <input type="radio" th:name="arrayType" id="string" th:value="String">
             <label for="string">String</label>
-            <input type="radio" th:name="arrayType" id="jewelry" th:value="Jewelry">
-            <label for="jewelry">Jewelry</label>
+            <input type="radio" th:name="arrayType" id="Computer" th:value="Computer">
+            <label for="Computer">Computer</label>
+        </div>
+            <legend>Type of Algorithm</legend>
+            <input type="radio" th:name="sortMethod" id="insertion" th:value="Insertion" required>
+            <label for="insertion">Insertion</label>
+            <input type="radio" th:name="sortMethod" id="bubble" th:value="Bubble">
+            <label for="bubble">Bubble</label>
+            <input type="radio" th:name="sortMethod" id="selection" th:value="Selection">
+            <label for="selection">Selection</label>
+        <div>
+
         </div>
 
 
-        <label for="array">Input array, must be of type integer or string</label>
-        <input name="array" id="array">
+        <!--<label for="array">Input array, must be of type integer or string</label>-->
+        <!--<input name="array" id="array">-->
         <button id="Sortbutton">Go!</button>
 
-    <input type="submit">
     </form>
 
 <h1><p th:text="'Result: '+${arraySorted}"/></h1>
-<h2><p th:text="'Insertion Time: ' +${insertionTime}+' nanoseconds'"/></h2>
-<h2><p th:text="'Selection Time: ' +${selectionTime}+' nanoseconds'"</h2>
-<h2><p th:text="'Bubble Time: ' +${bubbleTime}+' nanoseconds'"</h2>
-<h2><p th:text="'Do the Arrays Match?: ' +${arraysMatch}"</h2>
+<h2><p th:text="'Elapsed Time: ' +${elapsedTime}+' nanoseconds'"/></h2>
+
+<h2><p th:text="'Input Array: '+${array}"></h2>
+<h2><p th:text="'Sorted Array: '+${sortedarray}"></h2>
 </div>
 
 

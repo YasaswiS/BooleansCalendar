@@ -89,7 +89,7 @@ public class Sort<T>
         System.out.println(Arrays.toString(Inte.InsertionSort(Ints)));
     }
 
-    public static class  Jewelry implements Comparable<Jewelry> {
+    public static class Jewelry implements Comparable<Jewelry> {
         private int Price;
         public Jewelry(int Price)
         {
