@@ -26,19 +26,13 @@ Grade: 4/5
 
 Justifications:
 
-- I have successfully implemented all kinds of sorts the Insertion sort which can be seen here. [Link to Code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/java/com/booleans/calendar/FRQ/Vihan/Sorting/Sorts.java#L37)
+- I have successfully implemented the Insertion sort which can be seen here. [Link to Code]
+- (https://github.com/PNatarajan123/SortsLab/blob/master/src/main/java/Lab/SortInsertion.java)
 - All three data types, Integer, String, POJO (toString) are compatible with my sort methods.
-- I have implemented a "view.html" & mappings. [View Link]
-- () 
-- [Mappings Link](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/java/com/booleans/calendar/MainController.java#L85)
-- The link to the view is built into the individual dropdown section. [HTML Dropdown Code]
-- ()
-- I have implemented code & model attributes to measure & display the runtime for each method given the same data type. [Java Code]
-- ()
-- [HTML Display Code]
-- ()
+- The link to the view is built into the individual dropdown section. [HTML Code]
+- (https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/MiniLabsHome.html#L157)
 
-I got help from Aditya's lab in order to get the mappings in order to deploy. I did not get any of the other sorts to successfully deploy, so I am taking off a point.
+I got help from Aditya's lab in order to get the mappings in order to deploy. I did not get any of the other sorts to successfully deploy, so I am taking off a point. In addition, Vihan and I spent 5 hours this week attempting to deploy, but it nothing worked.
 
 ###### Vihan Jayaraman
 
@@ -56,7 +50,7 @@ Justifications:
 - I have implemented code & model attributes to measure & display the runtime for each method given the same data type. [Java Code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/java/com/booleans/calendar/FRQ/Vihan/Sorting/Sorts.java#L20)
 - [HTML Display Code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/resources/templates/labs/Vihan/Sorts.html#L36)
 
-However, due to previous issues with deployment, it's not possible to view any of the locally hosted labs. However, I hope my evidence of work will be sufficient.
+However, due to previous issues with deployment, it's not possible to view any of the locally hosted labs. However, I hope my evidence of work will be sufficient as I attempted to have our team's code deployed to AWS for 5 hours.
 
 ###### Aditya Surapaneni
 
