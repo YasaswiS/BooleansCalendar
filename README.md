@@ -65,6 +65,21 @@ Justifications:
 
 I got help from Aditya's lab in order to get the mappings and all of the linkings for the thyme leaf in order to deploy. I did not get any of the other sorts to successfully deploy, so I am taking off a point. In addition, Vihan and I spent 5 hours this week attempting to deploy, but it nothing worked.
 
+
+###### Neil Sahai
+
+Grade: 4/5
+
+Justifications:
+
+- I have successfully implemented the Insertion sort which can be seen here. [Link to Code](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Neil/InsertionSort.java)
+- All three data types, Integer, String, POJO (toString) are compatible with my insertion sort.
+- The link to the view is built into the individual dropdown section. [HTML Code](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/MiniLabsHome.html#L157)
+- Actively built a connection to the inheritance lab into this project. Connected the cars concept to the new sort code
+- Working on developing a bubble sort and an selection sort. This will be up to view soon.
+
+I spent a lot of time trying to do research on how to deploy and I spent time that was upwards of 3 hours researching AWS and deployment. So as a result, I was unable to deploy. So I will be taking a point off. I will deploy all of my labs on another website to remediate this and to get the final point back.
+
 ------------------------------------------------------ Week 3 ------------------------------------------------------
 
 ## Self Grading
