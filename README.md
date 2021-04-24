@@ -34,6 +34,7 @@ Justifications:
 - I built three different types of data for this Sorts Lab. I used Integers, Strings, & toStrings. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/SortsLab/Sort.java#L69-L110) to see the code for each type of data.
 - I used the three different types of sorts, including Insertion Sort, Bubble Sort, & Selection Sort. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/SortsLab/Sort.java#L7-L67) to see the code for the three different types of sorts.
 - I described how each type of sort works, included the "O(n) Time Complexity", & labeled the "Best Case Scenario" & the "Worst Case Scenario". Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaSorts.html#L53-L77) to see the code for this requirement.
+- The ticket for my Sorts Lab can be found by clicking [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1). It's under the "Completed" section of the Scrum Board. It should be at the very bottom.
 
 ------------------------------------------------------ Week 3 ------------------------------------------------------
 
