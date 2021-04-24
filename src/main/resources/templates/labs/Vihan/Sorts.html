@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments/headfile :: head">
+    <title>Sorts</title>
+    <style>
+        SortButton {
+            color:black
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>There are three kinds of sorts, Insertion, Selection, and Bubble</p>
+
+    <form th:action="/labs/Vihan/sorts">
+
+        <div>
+            <legend>Type of Data:</legend>
+            <input type="radio" th:name="arrayType" id="integer" th:value="Integer" required>
+            <label for="integer">Integer</label>
+            <input type="radio" th:name="arrayType" id="string" th:value="String">
+            <label for="string">String</label>
+            <input type="radio" th:name="arrayType" id="jewelry" th:value="Jewelry">
+            <label for="jewelry">Jewelry</label>
+        </div>
+
+
+        <label for="array">Input array, must be of type integer or string</label>
+        <input name="array" id="array">
+        <button id="Sortbutton">Go!</button>
+
+    <input type="submit">
+    </form>
+
+<h1><p th:text="'Result: '+${arraySorted}"/></h1>
+<h2><p th:text="'Insertion Time: ' +${insertionTime}+' nanoseconds'"/></h2>
+<h2><p th:text="'Selection Time: ' +${selectionTime}+' nanoseconds'"</h2>
+<h2><p th:text="'Bubble Time: ' +${bubbleTime}+' nanoseconds'"</h2>
+<h2><p th:text="'Do the Arrays Match?: ' +${arraysMatch}"</h2>
+</div>
+
+
+</body>
+</html>

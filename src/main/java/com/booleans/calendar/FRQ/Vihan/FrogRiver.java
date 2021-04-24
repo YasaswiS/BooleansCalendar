@@ -2,6 +2,8 @@ package com.booleans.calendar.FRQ.Vihan;
 
 import java.time.Duration;
 import java.time.Instant;
+
+
 public class FrogRiver {
     Duration timeElapsed;
     int paths;
