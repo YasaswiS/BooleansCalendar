@@ -18,11 +18,33 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 ## Self Grading
 
+###### Praveen Natarajan
+
+[Link to Sorts Lab Code]
+
+Grade: 4/5
+
+Justifications:
+
+- I have successfully implemented all kinds of sorts the Insertion sort which can be seen here. [Link to Code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/java/com/booleans/calendar/FRQ/Vihan/Sorting/Sorts.java#L37)
+- All three data types, Integer, String, POJO (toString) are compatible with my sort methods.
+- I have implemented a "view.html" & mappings. [View Link]
+- () 
+- [Mappings Link](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/java/com/booleans/calendar/MainController.java#L85)
+- The link to the view is built into the individual dropdown section. [HTML Dropdown Code]
+- ()
+- I have implemented code & model attributes to measure & display the runtime for each method given the same data type. [Java Code]
+- ()
+- [HTML Display Code]
+- ()
+
+I got help from Aditya's lab in order to get the mappings in order to deploy. I did not get any of the other sorts to successfully deploy, so I am taking off a point.
+
 ###### Vihan Jayaraman
 
 [Link to Sorts Lab Code]
 
-Grade: 3/5
+Grade: 4/5
 
 Justifications:
 
