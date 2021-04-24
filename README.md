@@ -2,13 +2,11 @@
 
 ## Summary
 
-With this Calendar application, users can schedule events by designating a specific date to be notified of the event, writing a description of the event, & setting a specific time to be notified of the event. The user will be notified of the events via their smartphone or by e-mail. May add functionality by linking it to canvas.
+With this Calendar Application, users can schedule events by designating a specific date to be notified of the event, writing a description of the event, & setting a specific time to be notified of the event. The user will be notified of the events via their smartphone or by e-mail. We may add functionality by linking it to Canvas.
 
 ## Website
 
 Click [here](https://booleans-website.herokuapp.com/) to access the website.
-
-NOTE: CSS formatting has not fully been implemented into the website, which will be a goal for the coming week. Complete CSS formatting can be seen if run via LocalHost, or by looking at the picture below.
 
 ![Home Page Screenshot](https://user-images.githubusercontent.com/71394490/112705180-d5cb3f80-8e5a-11eb-9c53-c50d1347e9b0.png)
 
@@ -16,7 +14,7 @@ NOTE: CSS formatting has not fully been implemented into the website, which will
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
----------------------------------------------------------------- Week 3 ----------------------------
+---------------------------------------------------------------- Week 3 ----------------------------------------------------------------
 
 ## Self Grading
 
@@ -24,66 +22,68 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 Score: 9/10
 
+Justification:
+
 Recursion Lab:
-- Individual section on labs page (separate dropdown menu): [Dropdown section in HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L169)
-- Individual Mini Lab - [Recursion to calculate Greatest Common Divisor](https://github.com/YasaswiS/SpringBootCalculator/blob/master/src/main/java/com/calculator/debugdatabandits/service/CalculateSimple.java#L18)
-- Default Value explained on calculator webpage
-- WOW Factor: Included [time taken to calculate GCD using recursion](https://github.com/YasaswiS/SpringBootCalculator/blob/master/src/main/java/com/calculator/debugdatabandits/service/CalculateSimple.java#L20)
 
+- I have an individual section on the Labs Page. (Separate Dropdown Menu) [Dropdown Section in HTML Page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L169)
+- Individual Mini Lab - [Recursion to Calculate Greatest Common Divisor](https://github.com/YasaswiS/SpringBootCalculator/blob/master/src/main/java/com/calculator/debugdatabandits/service/CalculateSimple.java#L18)
+- The default value is explained on the Calculator Page.
+- WOW Factor - Included the [time taken to calculate GCD using recursion.](https://github.com/YasaswiS/SpringBootCalculator/blob/master/src/main/java/com/calculator/debugdatabandits/service/CalculateSimple.java#L20)
 
-Inheritance:
-- Individual section on labs page (separate dropdown menu): [Dropdown section in HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L169) (will be added to link 2 in the future)
-- [Default Values Initialized in code](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Yasaswi/Inheritance.java#L32) and will be ready to display on the website after integration
-- Wrote [Java Inheritence minilab code](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Yasaswi/Inheritance.java) but I haven't integrated it with the website yet so I'm taking a point off
+Inheritance Lab:
 
-
-
+- I have an individual section on the Labs Page. (Separate Dropdown Menu) [Dropdown Section in HTML Page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L169)
+- [Default Values Initialized in Code](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Yasaswi/Inheritance.java#L32) & will be ready to display on the website after integration.
+- Wrote [Java Inheritance Mini Lab Code](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Yasaswi/Inheritance.java) but I haven't integrated it with the website yet so I'm taking a point off.
 
 ###### Neil Sahai
 
 Score: 9/10
 
 Justification:
-- All criteria met for individual project requirements:
-- Individual section on labs page (separate dropdown menu): [Dropdown section in HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L145)
-- Individual Mini Lab - Recursion  - completely functional with Input from User: [HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Neil/NeilFactorial.html) [Java class](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Neil/RecursionNeil.java)
-- Able to adjust output by allowing user to enter in the desired number of paths: [Form for inputting number of rocks](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Neil/NeilFactorial.html)
-- WOW: Recursion through Loops: [Factorial Calculations with Recursion through Loops](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/java/com/booleans/calendar/FRQ/Neil/RecursionNeil.java#L17)
-- Began working on the Inheritance Lab, but it is not completely finished. (Visit the Scrum Board for detailed explanation on what is completed.)
 
-I was unable to get the HTML page for the Inheritance Lab Up so I am taking a point off.
-NOTE: Some labs only work on localhost:8080 as we were beginning integration/deployment to AWS. So the Heroku deployed website is not the complete project. If you see a whitelabel, it is a result of this beginning integration. Please clone the repository and run labs from there by running CalendarApplication.java
+- All criteria are met for individual project requirements.
+- I have an individual section on the Labs Page. (Separate Dropdown Menu) [Dropdown Section in HTML Page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L145)
+- Individual Mini Lab - Recursion  -Ccompletely functional with Input from User: [HTML Page](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Neil/NeilFactorial.html)
+- [Java Class](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Neil/RecursionNeil.java)
+- Able to adjust output by allowing user to enter in the desired number of paths. [Form for Inputting Number of Rocks](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Neil/NeilFactorial.html)
+- WOW: Recursion through loops. [Factorial Calculations with Recursion through Loops](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/java/com/booleans/calendar/FRQ/Neil/RecursionNeil.java#L17)
+- Began working on the Inheritance Lab, but it is not completely finished. (Visit the Scrum Board for detailed explanations on what is completed.)
 
-Improvements: 
+I was unable to get the HTML page for the Inheritance Lab up so I am taking a point off.
+
+NOTE: Some labs only work on "localhost:8080" as we were beginning integration/deployment to AWS. So the Heroku deployed website is not the complete project. If you see a whitelabel, it is a result of this beginning integration. Please clone the repository & run labs from there by running CalendarApplication.java.
+
+Improvements:
+
 - Functionality on the newly put up AWS website.
 - Add a time taken function for each of the different methods.
-
-
-
 
 ###### Praveen Natarajan
 
 Score: 9/10
 
 Justification:
-- All criteria met for individual project requirements:
-- Individual section on labs page (separate dropdown menu): [Dropdown section in HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L145)
-- Individual Mini Lab - Recursion  - completely functional with Input from User: [HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Praveen/PraveenFactorial.html) [Java class](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Praveen/RecursionPraveen.java)
-- Able to adjust output by allowing user to enter in the desired number of paths: [Form for inputting Factorial number](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Praveen/PraveenFactorial.html)
-- Added inheritance through cars, but have not figured out how to deploy the code, so I am taking off -1 points
-- Began working on the Inheritance Lab, but it is not completely finished. (Visit the Scrum Board for detailed explanation on what is completed.)[Inheritance Java Lab] (https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Praveen/CarInheritance.java)
-- Begin converting the tickets into advanced tickets so it is more clear on what each person does
 
-I was unable to get the HTML page for the Inheritance Lab Up so I am taking a point off.
+- All criteria met for individual project requirements.
+- I have an individual section on the Labs Page. (Separate Dropdown Menu) [Dropdown Section in HTML Page](https://github.com/AdityaS1426/BooleansCalendar/blob/f628e150c165d3965c824fd1fbf878956af9e1d4/src/main/resources/templates/MiniLabsHome.html#L145)
+- Individual Mini Lab - Recursion  - Completely functional with Input from User. [HTML Page](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Praveen/PraveenFactorial.html)
+- [Java Class](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Praveen/RecursionPraveen.java)
+- Able to adjust output by allowing user to enter in the desired number of paths. [Form for Inputting Factorial Number](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/LabsHTMLPages/Praveen/PraveenFactorial.html)
+- Added inheritance through cars, but have not figured out how to deploy the code, so I am taking off 1 point.
+- Began working on the Inheritance Lab, but it is not completely finished. (Visit the Scrum Board for detailed explanation on what is completed.)[Inheritance Java Lab] (https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Praveen/CarInheritance.java)
+- Began converting the tickets into advanced tickets so it is more clear on what each person does.
+
+I was unable to get the HTML page for the Inheritance Lab up so I am taking a point off.
+
 NOTE: Some labs only work on localhost:8080 as we were beginning integration/deployment to AWS. So the Heroku deployed website is not the complete project. If you see a whitelabel, it is a result of this beginning integration. Please clone the repository and run labs from there.
 
-Improvements: 
-- Functionality on the newly put up AWS website
-- Integrate the Inheritance code to the website
-- Get it off running in heroku so the whitelabel error goes away
+Improvements:
 
-
-
+- Functionality on the newly put up AWS website.
+- Integrate the Inheritance code to the website.
+- Get it off running in heroku so the whitelabel error goes away.
 
 ###### Aditya Surapaneni
 
@@ -116,21 +116,23 @@ Inheritance Lab
 Score: 10/10
 
 Justification:
-- All criteria met for individual project requirements:
-- Individual section on labs page (separate dropdown menu): [Dropdown section in HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/resources/templates/MiniLabsHome.html#L176)
-- Individual Mini Lab - River Recursion (from tutorial) - completely functional: [HTML page](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Vihan/River-Recursion.html#L8) [Java class](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/FRQ/Vihan/FrogRiver.java)
-- Default input of 3 rocks: [RequestParam configuration to have default value](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/java/com/booleans/calendar/MainController.java#L32)
-- Able to adjust output by allowing user to enter in the desired number of paths: [Form for inputting number of rocks](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/resources/templates/labs/Vihan/River-Recursion.html#L8)
-- WOW: elapsed time for each run: [Time Elapsed Function](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/java/FRQ/Vihan/FrogRiver.java#L28)
 
-- Explanation paragraph so the user knows what they are doing: [Paragraph in html](https://github.com/AdityaS1426/BooleansCalendar/blob/17a9691429a4299d2b94b78b1d43e6853fadff71/src/main/resources/templates/labs/Vihan/River-Recursion.html#L13)
+- All criteria met for individual project requirements.
+- I have an individual section on the Labs Page. (Separate Dropdown Menu) [Dropdown Section in HTML Page](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/resources/templates/MiniLabsHome.html#L176)
+- Individual Mini Lab - River Recursion (From Tutorial) - Completely functional. [HTML Page](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Vihan/River-Recursion.html#L8)
+- [Java Class](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/FRQ/Vihan/FrogRiver.java)
+- Default input of 3 rocks. [RequestParam Configuration to Have Default Value](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/java/com/booleans/calendar/MainController.java#L32)
+- Able to adjust output by allowing user to enter in the desired number of paths. [Form for Inputting Number of Rocks](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/resources/templates/labs/Vihan/River-Recursion.html#L8)
+- WOW: Elapsed time for each run. [Time Elapsed Function](https://github.com/AdityaS1426/BooleansCalendar/blob/017751d806c52ae6ef95c9ab2ac5ae116fcc0ea9/src/main/java/FRQ/Vihan/FrogRiver.java#L28)
+- Explanation paragraph so the user knows what they are doing. [Paragraph in html](https://github.com/AdityaS1426/BooleansCalendar/blob/17a9691429a4299d2b94b78b1d43e6853fadff71/src/main/resources/templates/labs/Vihan/River-Recursion.html#L13)
 
-NOTE: For inputs of around 10 or less rocks, the algorithm completes so quickly that the timeelapsed function cannot register, which means it returns an output of 0 nanoseconds, (although this is obviously not the case).
+NOTE: For inputs of around 10 or less rocks, the algorithm completes so quickly that the timeelapsed function cannot register, which means it returns an output of 0 nanoseconds. (Although this is obviously not the case.)
 
-Improvements: - Better Aesthetics
-              - Add a scaled graphic of a river and the frog crossing the river.
+Improvements: 
+- Better Aesthetics
+- Add a scaled graphic of a river and the frog crossing the river.
 
----------------------------------------------------------------- Week 2 ----------------------------
+---------------------------------------------------------------- Week 2 ----------------------------------------------------------------
 
 ## Self Grading
 
@@ -153,9 +155,9 @@ Score: 8/10
 
 Justification:
 
-- Finished personal minilab.
+- Finished personal lab.
 - Finished all work outnlined by Scrum Master at the begenning of the week.
-- Couldn't help on deployment or integrating the minilab with the main website so I took off 2 points.
+- Couldn't help on deployment or integrating the lab with the main website so I took off 2 points.
 
 
 ------------------------------------------------------------------------------------------------------------
@@ -166,10 +168,12 @@ Score: 8/10
 
 Justification:
 
-- Finished personal recursion minilab - having difficulties uploading lab
+- Finished personal Recursion Lab. 
+- I am having difficulties uploading lab.
 - Finished all work outnlined by Scrum Master at the begenning of the week.
 - Researched Google Calendar API integration - will be up by this week.
-- I was unable to figure out how to get the recursion lab up, so I have put up a different recursion lab with logarithms that I have done previously - did not accomplish as much as I wanted to this week so I am taking off 2 points.
+- I was unable to figure out how to get the Recursion Lab up, so I have put up a different Recursion Lab with logarithms that I have done previously. 
+- I did not accomplish as much as I wanted to this week so I am taking off 2 points.
 
 ###### Vihan Jayaraman
 
@@ -177,9 +181,9 @@ Score 8/10
 
 Justification:
 
-- Finished frogs recursion minilab logic
-- Created HTML website pages + templating the html pages
-- Did not create full html page for frogs recursion minilab - (Still not April 12th yet, but I didn't put a full effort that warrants a 10/10).
+- Finished Frog Recursion Lab logic.
+- Created HTML website pages & templating the HTML pages.
+- Did not create full HTML page for Frog Recursion Lab. - (Still not April 12th yet, but I didn't put a full effort that warrants a 10/10.)
 
 ---------------------------------------------------------------- Week 0 & Week 1 ----------------------------
 
@@ -220,7 +224,7 @@ Click [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1) to acce
 | Yasaswi | Help integrate Java back end code and front end HTML/CSS code, and add database functionality. The goal will be acheived when you can save events in the calender/ lab results on the website. The goal is achivable, as I have expericence/old code to refer back to, from last tri's project. The goal is realistic, as I've helped on the sql databases on the last project. I will try to achieve this goal by April 12. |
 | Praveen | Help Yasaswi with the database storage as well as develop the backend code that sets up all of the event listeners. This goal will be acheived when all of the buttons are able to be pressed, and when they redirect to different pages of the website. This goal is realistic because I have experience with databases from last trimester, and Yasaswi could help me out when I am stuck. I will try to attain this goal by April 12. |
 | Neil | Check for APIs to allow for Canvas and Google integration so you can see your assignments, to-do's, and grades all in one space. Then implement these APIs into our project, allowing for a swift and clean connection to other apps. This goal is achievable because I have seen these kind of API integrations done into calendars before, so I can find tutorials explaining how to accomplish it if I am stuck. This goal is realistic as this is something which we can do and perserve through given our 3 tris of PBL learning. I will achieve this goal by April 12th 2021 |
-| Vihan | Create another Recursion Mini-Lab with GUI, based on the problem of the frog crossing the river. This lab will be completed once the user is able to input a river of the specified width (number of stones in river), and they will receive the number of distinct paths the frog can take to get to the other side of the river. This goal is achievable because I have a solid understanding of how to create  basic recursive functions, from what has been taught in class. This goal is realistic because this problem is entry level, and not incredibly complex. I also have knowledge about how to create a basic GUI with text forms, so I will be able to create the GUI for this lab. I will achieve this goal by April 12th, 2021
+| Vihan | Create another Recursion Mini-Lab with GUI, based on the problem of the frog crossing the river. This lab will be completed once the user is able to input a river of the specified width (number of stones in river), and they will receive the number of distinct paths the frog can take to get to the other side of the river. This goal is achievable because I have a solid understanding of how to create  basic recursive functions, from what has been taught in class. This goal is realistic because this problem is entry level, and not incredibly complex. I also have knowledge about how to create a basic GUI with text forms, so I will be able to create the GUI for this lab. I will achieve this goal by April 12th, 2021.
 
 
 ## Journals and Project Credits
