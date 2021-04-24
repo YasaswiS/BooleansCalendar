@@ -18,6 +18,20 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 ## Self Grading
 
+####### Vihan Jayaraman
+[Link to Sorts Lab code](
+
+Grade: 3/5
+
+Justifications: 
+ - I have successfully implemented all kind of sorts (Bubble, Insertion, Selection), which can be seen here: [Link to code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/java/com/booleans/calendar/FRQ/Vihan/Sorting/Sorts.java#L37)
+- All three data types, Integer, String, POJO (toString) are compatible with my sort methods
+- I have also implemented a view .html and mappings: [view link](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/resources/templates/labs/Vihan/Sorts.html#L12) [mappings link](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/java/com/booleans/calendar/MainController.java#L85)
+- The link to the view is built into the individual dropdown section: [html dropdown code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/resources/templates/MiniLabsHome.html#L180)
+- I have implemented code and model attributes to measure and display the runtime for each method given the same datatype: [Java Code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/java/com/booleans/calendar/FRQ/Vihan/Sorting/Sorts.java#L20) [Html display code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/resources/templates/labs/Vihan/Sorts.html#L36)
+
+However, due to previous issues with deployment, it's not possible to view any of the locally hosted labs. However, I hope my evidence of work will be sufficient.
+
 ###### Aditya Surapaneni
 
 [Link to Sorts Lab](https://insertion-sorts-lab.herokuapp.com/sort)
