@@ -47,6 +47,6 @@ public class SortController {
         model.addAttribute("sortedarray",sort.sortedarray.toString());
 
 
-        return "/labs/Vihan/Sorts";
+        return "labs/Vihan/Sorts";
     }
 }
