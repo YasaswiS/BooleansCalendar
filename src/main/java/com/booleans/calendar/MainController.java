@@ -1,6 +1,7 @@
 package com.booleans.calendar;
 
 
+import com.booleans.calendar.FRQ.Neil.Inheritance;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -84,6 +85,19 @@ public class MainController extends SpringBootServletInitializer {
         model.addAttribute("paths", car);
 
         return "labs/Praveen/PraveenInheritance";
+    }
+
+    @RequestMapping(value = "/labs/Neil/inheritance", method = {RequestMethod.GET, RequestMethod.POST})
+    public String Food(@RequestParam(value = "name", required = false, defaultValue = "3") String name, @RequestParam(value = "cost", required = false, defaultValue = "3") String cost, @RequestParam(value = "calories", required = false, defaultValue = "3") String calories, Model model) {
+
+        Inheritance food = new Inheritance();
+        int Daname = Integer.parseInt(name);
+        int DaSpeed = Integer.parseInt(cost);
+        int DaHeight = Integer.parseInt(calories);
+
+        model.addAttribute("paths", food);
+
+        return "labs/Neil/NeilInheritance";
     }
 
 
