@@ -29,7 +29,7 @@ Justifications:
 - All three data types, Integer, String, POJO (toString) are compatible with my sort methods.
 - I have also implemented a "view.html" & mappings. [View Link](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/resources/templates/labs/Vihan/Sorts.html#L12) [Mappings Link](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/java/com/booleans/calendar/MainController.java#L85)
 - The link to the view is built into the individual dropdown section. [HTML Dropdown Code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/resources/templates/MiniLabsHome.html#L180)
-- I have implemented code & model attributes to measure & display the runtime for each method given the same data type. [Java Code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/java/com/booleans/calendar/FRQ/Vihan/Sorting/Sorts.java#L20)[HTML Display Code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/resources/templates/labs/Vihan/Sorts.html#L36)
+- I have implemented code & model attributes to measure & display the runtime for each method given the same data type. [Java Code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/java/com/booleans/calendar/FRQ/Vihan/Sorting/Sorts.java#L20) [HTML Display Code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/resources/templates/labs/Vihan/Sorts.html#L36)
 
 
 
