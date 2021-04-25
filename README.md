@@ -7,7 +7,8 @@ With this Calendar Application, users can schedule events by designating a speci
 ## Website
 
 Click [here](https://booleans-website.herokuapp.com/) to access the website.
-
+Or go to this ip address: 3.131.39.159 -
+We are currently working on finding a domain-name.
 ![Home Page Screenshot](https://user-images.githubusercontent.com/71394490/112705180-d5cb3f80-8e5a-11eb-9c53-c50d1347e9b0.png)
 
 ## Project Plan
