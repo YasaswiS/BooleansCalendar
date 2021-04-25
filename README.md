@@ -7,7 +7,8 @@ With this Calendar Application, users can schedule events by designating a speci
 ## Website
 
 Click [here](https://booleans-website.herokuapp.com/) to access the website.
-
+Or go to this ip address: 3.131.39.159 -
+We are currently working on finding a domain-name.
 ![Home Page Screenshot](https://user-images.githubusercontent.com/71394490/112705180-d5cb3f80-8e5a-11eb-9c53-c50d1347e9b0.png)
 
 ## Project Plan
@@ -20,7 +21,7 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 ###### Vihan Jayaraman
 
-Grade: 4/5
+Grade: 5/5
 
 Justifications:
 
@@ -32,7 +33,7 @@ Justifications:
 - I have implemented code & model attributes to measure & display the runtime for each method given the same data type. [Java Code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/java/com/booleans/calendar/FRQ/Vihan/Sorting/Sorts.java#L20)
 - [HTML Display Code](https://github.com/AdityaS1426/BooleansCalendar/blob/121bfd18a8216ca4c7557664076c4ef798dcba94/src/main/resources/templates/labs/Vihan/Sorts.html#L36)
 
-However, due to previous issues with deployment, it's not possible to view any of the locally hosted labs. However, I hope my evidence of work will be sufficient as I attempted to have our team's code deployed to AWS for 5 hours.
+
 
 ###### Aditya Surapaneni
 
