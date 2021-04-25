@@ -83,7 +83,7 @@ public class MainController extends SpringBootServletInitializer {
 
         model.addAttribute("paths", car);
 
-        return "labs/Praveen/PraveenFactorial";
+        return "labs/Praveen/PraveenInheritance";
     }
 
 
