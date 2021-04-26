@@ -1,8 +1,7 @@
 package com.booleans.calendar;
 
-import com.booleans.calendar.FRQ.Vihan.Computer;
+import com.booleans.calendar.FRQ.Vihan.Inheritance.Computer;
 import com.booleans.calendar.FRQ.Vihan.Sorting.Sorts;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.ui.Model;
@@ -37,7 +36,7 @@ public class SortController {
             test = new Computer[]{new Computer()};
 
             if (array.compareTo("default") == 0) {
-                test = new Computer[]{new Computer(1000), new Computer(512), new Computer(128), new Computer(256), new Computer(2000), new Computer(64)};
+                test = new Computer[]{new Computer(1000, "Comp1"), new Computer(512,"Comp1"), new Computer(128,"Comp2"), new Computer(256,"Comp3"), new Computer(2000,"Comp4"), new Computer(64,"Comp5")};
             }
 
         }
