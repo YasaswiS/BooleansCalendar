@@ -64,6 +64,8 @@ Justifications:
 
 I got help from Aditya's lab in order to get the mappings and all of the linkings for the thyme leaf in order to deploy. I did not get any of the other sorts to successfully deploy, so I am taking off a point. In addition, Vihan and I spent 5 hours this week attempting to deploy, but it nothing worked.
 
+Edit: We got it to deploy! Therefore, I am adding a point back to the score
+
 
 ###### Neil Sahai
 
