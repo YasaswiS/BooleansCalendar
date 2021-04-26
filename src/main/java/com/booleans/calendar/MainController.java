@@ -52,6 +52,7 @@ public class MainController extends SpringBootServletInitializer {
         int factnum = Integer.parseInt(totfact);
 
         model.addAttribute("paths", factorial.fact(factnum));
+        model.addAttribute("facttime", String.valueOf(factorial.getTimeElapsed()));
 
 
         return "labs/Praveen/praveenFactorial";
