@@ -79,6 +79,19 @@ Justifications:
 
 I spent a lot of time trying to do research on how to deploy and I spent time that was upwards of 3 hours researching AWS and deployment so I was unable to completely flesh out the inheritance lab. I hope that what I have accomplished speaks for us.
 
+###### Yasaswi Singamneni
+
+Grade: 5/5
+
+Justifications:
+
+- I wrote an implementaion of Insertion Sort that is deployed. [Link to Code](https://github.com/YasaswiS/SortsLab/blob/master/src/main/java/Lab/Sort.java#L8)
+- All three data types, Integer, String, POJO (toString) can be sorted with my implementation of Insertion Sort.
+- The link to the view is built into the individual dropdown section. [HTML Code](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/MiniLabsHome.html#L172)
+- Started on an implementation of Selection sort that I will have on the website soon.
+
+I spent a lot of time researching different sort methods, understanding time and space complexity, along with trying to help deploy the website, so I couldn't finish the integration for my inheritence lab, I will try to get it done by early next week.
+
 ------------------------------------------------------ Week 3 ------------------------------------------------------
 
 ## Self Grading
