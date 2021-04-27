@@ -87,7 +87,7 @@ Grade: 5/5
 
 Justifications:
 
-- I wrote an implementaion of Insertion Sort that is deployed. [Link to Code](https://github.com/YasaswiS/SortsLab/blob/master/src/main/java/Lab/Sort.java#L8)
+- I wrote an implementaion of Insertion Sort that is deployed. [Link to Code](https://github.com/YasaswiS/SortsLab/blob/master/src/main/java/Lab/SortInsertion.java#L8)
 - All three data types, Integer, String, POJO (toString) can be sorted with my implementation of Insertion Sort.
 - The link to the view is built into the individual dropdown section. [HTML Code](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/MiniLabsHome.html#L172)
 - Started on an implementation of Selection sort that I will have on the website soon.
