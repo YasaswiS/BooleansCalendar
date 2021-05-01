@@ -4,9 +4,27 @@ import java.util.ArrayList;
 
 public class LinkedList{
 
+    Node head;
+
+    public LinkedList(int[] vals){
+        this.head = new Node(vals[0]);
+        System.out.println(head.value);
+        ArrayList<Node> nodes = new ArrayList<Node>();
+        nodes.add(head);
+
+        for (int i = 1; i < vals.length; i++){
+            int val = vals[i];
+            nodes.add(new Node(val));
+        }
+        for (int i = 0; i < nodes.size() - 1; i++){
+            nodes.get(i).next = nodes.get(i+1);
+        }
+
+    }
+
     // create an object of Node class
     // represent the head of the linked list
-    Node head;
+
 
     // static inner class
     static class Node {
@@ -26,36 +44,34 @@ public class LinkedList{
        }
     }
 
-    public Node next(){
-        return head.next;
-    }
 
-    public ArrayList<String> traverse(){
-        ArrayList<String> vals = new ArrayList<String>();
+
+    public ArrayList<Integer> traverse(){
+        ArrayList<Integer> vals = new ArrayList<Integer>();
         while (head != null) {
-            vals.add(head.value + " ");
+            vals.add(head.value);
             head = head.next;
         }
         return vals;
+    }
+    public String toString(){
+        String result = "";
+        for (int val : traverse()){
+            result = result + val + ", ";
+        }
+        return result;
     }
 
     public static void main(String[] args) {
 
         // create an object of LinkedList
-        LinkedList linkedList = new LinkedList();
+        LinkedList linkedList = new LinkedList(new int[] {1,2,3});
 
-        // assign values to each linked list node
-        linkedList.head = new Node(1);
-        Node second = new Node(2);
-        Node third = new Node(3);
 
-        // connect each node of linked list to next node
-        linkedList.head.next = second;
-        second.next = third;
-
-        System.out.println(linkedList.next());
         System.out.println(linkedList.traverse());
 
+        //System.out.println(linkedList.head.value);
+        //System.out.println(linkedList.head.next.value);
 
     }
 }

@@ -4,6 +4,7 @@ package com.booleans.calendar;
 import com.booleans.calendar.FRQ.Neil.Inheritance;
 import com.booleans.calendar.FRQ.Vihan.Inheritance.Computer;
 import com.booleans.calendar.FRQ.Vihan.Inheritance.Laptop;
+import com.booleans.calendar.FRQ.Yasaswi.LinkedList;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -116,6 +117,16 @@ public class MainController extends SpringBootServletInitializer {
         model.addAttribute("paths", food);
 
         return "labs/Neil/NeilInheritance";
+    }
+
+    @RequestMapping(value = "/labs/Yasaswi/LinkedList", method = {RequestMethod.GET, RequestMethod.POST})
+    public String LinkedList(@RequestParam(value = "name", required = false, defaultValue = "1") String name, Model model) {
+
+        LinkedList list = new LinkedList(new int[]{1,2,3});
+
+        model.addAttribute("linkedlist", list);
+
+        return "labs/Yasaswi/YasaswiLinkedList";
     }
 
 
