@@ -129,50 +129,50 @@ public class MainController extends SpringBootServletInitializer {
 
     @RequestMapping(value = "/labs/Yasaswi/LinkedList", method = {RequestMethod.GET, RequestMethod.POST})
     public String LinkedList(@RequestParam(value = "add", required = false, defaultValue = "7") String add, Model model) throws IOException {
-
-        File myObj = new File("src/main/java/com/booleans/calendar/FRQ/Yasaswi/linkedListData.txt");
-
-
-
-        String file = "src/main/java/com/booleans/calendar/FRQ/Yasaswi/linkedListData.txt";
-        Path path = Paths.get(file);
-        //String[] lines = (String[]) Files.readAllLines(path).toArray();
-        String lines = Files.readString(path);
-        int[] values = new int[lines.length()];
-        for (int i = 0; i < values.length; i++) {
-            values[i] = Character.getNumericValue(lines.charAt(i));
-            //System.out.println((Character.getNumericValue(lines.charAt(i))));
-        }
-
-        LinkedList list = new LinkedList(values);
-        //LinkedList list = new LinkedList(new int[]{1, 2, 3});
-        int val = Integer.parseInt(add);
-
-
-
-        list.addHead(val);
-
-        list.toFile("src/main/java/com/booleans/calendar/FRQ/Yasaswi/linkedListData.txt");
-
-        model.addAttribute("linkedlist1", list.traverse().get(0));
-        model.addAttribute("linkedlist2", list.traverse().get(1));
-        model.addAttribute("linkedlist3", list.traverse().get(list.traverse().size()-1));
-        model.addAttribute("linkedlist4", list.traverse());
-
-
-
-
-        //int[] vals = new int[data.length()];
-//        LinkedList list = new LinkedList(new int[]{9, 1, 8, 5, 2,3});
 //
+//        File myObj = new File("/Yasaswi/linkedListData.txt");
+//
+//
+//
+//        String file = "src/main/java/com/booleans/calendar/FRQ/Yasaswi/linkedListData.txt";
+//        Path path = Paths.get(file);
+//        //String[] lines = (String[]) Files.readAllLines(path).toArray();
+//        String lines = Files.readString(path);
+//        int[] values = new int[lines.length()];
+//        for (int i = 0; i < values.length; i++) {
+//            values[i] = Character.getNumericValue(lines.charAt(i));
+//            //System.out.println((Character.getNumericValue(lines.charAt(i))));
+//        }
+//
+//        LinkedList list = new LinkedList(values);
+//        //LinkedList list = new LinkedList(new int[]{1, 2, 3});
 //        int val = Integer.parseInt(add);
 //
+//
+//
 //        list.addHead(val);
+//
+//        list.toFile("src/main/java/com/booleans/calendar/FRQ/Yasaswi/linkedListData.txt");
 //
 //        model.addAttribute("linkedlist1", list.traverse().get(0));
 //        model.addAttribute("linkedlist2", list.traverse().get(1));
 //        model.addAttribute("linkedlist3", list.traverse().get(list.traverse().size()-1));
 //        model.addAttribute("linkedlist4", list.traverse());
+
+
+
+
+        //int[] vals = new int[data.length()];
+        LinkedList list = new LinkedList(new int[]{9, 1, 8, 5, 2,3});
+
+        int val = Integer.parseInt(add);
+
+        list.addHead(val);
+
+        model.addAttribute("linkedlist1", list.traverse().get(0));
+        model.addAttribute("linkedlist2", list.traverse().get(1));
+        model.addAttribute("linkedlist3", list.traverse().get(list.traverse().size()-1));
+        model.addAttribute("linkedlist4", list.traverse());
 
         return "labs/Yasaswi/YasaswiLinkedList";
     }
