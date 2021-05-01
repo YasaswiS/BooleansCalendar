@@ -1,5 +1,7 @@
 package com.booleans.calendar.FRQ.Yasaswi;
 
+import java.util.ArrayList;
+
 public class LinkedList{
 
     // create an object of Node class
@@ -17,6 +19,24 @@ public class LinkedList{
             value = d;
             next = null;
         }
+   public Node next(){
+       if (next != null) return next;
+       return null;
+
+       }
+    }
+
+    public Node next(){
+        return head.next;
+    }
+
+    public ArrayList<String> traverse(){
+        ArrayList<String> vals = new ArrayList<String>();
+        while (head != null) {
+            vals.add(head.value + " ");
+            head = head.next;
+        }
+        return vals;
     }
 
     public static void main(String[] args) {
@@ -33,11 +53,9 @@ public class LinkedList{
         linkedList.head.next = second;
         second.next = third;
 
-        // printing node-value
-        System.out.print("LinkedList: ");
-        while (linkedList.head != null) {
-            System.out.print(linkedList.head.value + " ");
-            linkedList.head = linkedList.head.next;
-        }
+        System.out.println(linkedList.next());
+        System.out.println(linkedList.traverse());
+
+
     }
 }
