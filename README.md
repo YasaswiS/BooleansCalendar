@@ -40,6 +40,18 @@ Justifications:
 - Finally, I included time complexities in the LinkedList Lab based on the output. The code for this can be found [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaLinkedList.html#L45-L47).
 - The Ticket I created for the LinkedList Lab can be found [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1). It's at the very bottom of the "Completed" section of the Scrum Board.
 
+###### Neil Sahai
+
+Grade: 5/5
+
+Justifications:
+
+- I met all of the criteria outlined in the "LinkedLists Lab" assignment on Canvas.
+- I built the LinkedLists Lab into the individual section of our project. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Neil/LinkedList.java) to see the LinkedList Lab.
+- I developed the ability to add to the head, middle, and back of the linked list.[Here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Neil/LinkedList.java)
+- Deployed the ability to add to the head of the linked list. [Here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Neil/NeilLinkedList.html)
+- The Ticket I created for the LinkedList Lab can be found [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1). It's at the very bottom of the "Completed" section of the Scrum Board.
+
 ------------------------------------------------------ Week 4 ------------------------------------------------------
 
 ## Self Grading
