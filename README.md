@@ -15,6 +15,29 @@ We are currently working on finding a domain-name.
 
 Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1bfvrn3Qzmf-4/edit?usp=sharing) to access the Booleans' Project Plan.
 
+------------------------------------------------------ Week 5 ------------------------------------------------------
+
+## Self Grading
+
+###### Aditya Surapaneni
+
+[Link to LinkedLists Lab](https://linked-list-lab.herokuapp.com/linked-list)
+
+NOTE: The link above might take some time to load since the Sorts Lab is deployed on Heroku. Our team is working on deploying to AWS at the moment.
+
+PLS READ: Mr. M, since you are looking over all of the Labs, we would like you to re-grade our Inheritance Lab. Our group got a 6/10, but you said we could improve our grade if we fixed it. We have fixed it, so please take a look at it.
+
+Grade: 5/5
+
+Justifications:
+
+- I met all of the criteria outlined in the "LinkedLists Lab" assignment on Canvas.
+- I built the LinkedLists Lab into the individual section of our project. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Aditya/LinkedListsLab/LinkedList.java) to see the Java code for the LinkedList Lab.
+- I linked the LinkedList Lab under my name in a dropdown menu on the Mini Labs Home Page. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/MiniLabsHome.html#L160-L167) to see the code which controls this function.
+- In my code, I allow the user to enter any number from 1 to 100 into six fields in order to create the Array. This essentially allows the user to create a Head, a Tail, as well as the parts in the middle. Furthermore, since the user can enter any number into any number of fields, they have the possibility to delete elements from the Array as well. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaLinkedList.html#L17-L37) in order to see the code for this.
+- When entered, the Array is printed out in a list, as can be seen in the code [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaLinkedList.html#L39-L43).
+- Finally, I include time complexities in the LinkedList Lab based on the output. The code for this can be found [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaLinkedList.html#L45-L47).
+
 ------------------------------------------------------ Week 4 ------------------------------------------------------
 
 ## Self Grading
