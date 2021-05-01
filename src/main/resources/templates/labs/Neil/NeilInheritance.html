@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments/headfile :: head">
+    <title>Factorial</title>
+</head>
+<body>
+<div>
+    <form id="food" action="/labs/Neil/Inheritance" method="POST" >
+        <label for="name">What is the name of your food?</label>
+        <input name="name" id="name" >
+        <label for="cost">How much does your food cost?</label>
+        <input name="cost" id="cost" >
+        <label for="calories">How many calories does your food have?</label>
+        <input name="calories" id="calories" >
+        <button>Go!</button>
+    </form>
+
+    <h1><p th:text="'Result: '+${paths}"/></h1>
+</div>
+</body>
+</html>

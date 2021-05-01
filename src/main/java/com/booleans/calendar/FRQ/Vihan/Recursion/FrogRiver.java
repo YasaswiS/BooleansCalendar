@@ -1,17 +1,18 @@
-package com.booleans.calendar.FRQ.Vihan;
+package com.booleans.calendar.FRQ.Vihan.Recursion;
 
 import java.time.Duration;
 import java.time.Instant;
+
+
 public class FrogRiver {
-    Duration timeElapsed;
+    public long timeElapsed;
     int paths;
 
     public FrogRiver(int n) {
-        Instant start = Instant.now();
+        long start = System.nanoTime();
         paths = PathsToNthStone(n);
-        Instant end = Instant.now();
 
-        timeElapsed = Duration.between(start,end);
+        timeElapsed = System.nanoTime()-start;
     }
     public int PathsToNthStone(int n) {
         if (n == 1 || n==0) {
@@ -26,7 +27,7 @@ public class FrogRiver {
         return this.paths;
     }
     public double getTimeElapsed() {
-        return this.timeElapsed.getNano();
+        return this.timeElapsed;
     }
 
 }
