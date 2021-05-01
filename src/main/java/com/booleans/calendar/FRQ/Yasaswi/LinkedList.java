@@ -5,11 +5,12 @@ import java.util.ArrayList;
 public class LinkedList{
 
     Node head;
+    ArrayList<Node> nodes;
 
     public LinkedList(int[] vals){
         this.head = new Node(vals[0]);
         System.out.println(head.value);
-        ArrayList<Node> nodes = new ArrayList<Node>();
+        this.nodes = new ArrayList<Node>();
         nodes.add(head);
 
         for (int i = 1; i < vals.length; i++){
@@ -19,6 +20,23 @@ public class LinkedList{
         for (int i = 0; i < nodes.size() - 1; i++){
             nodes.get(i).next = nodes.get(i+1);
         }
+
+    }
+
+    public void addHead(int val){
+        int[] vals = new int[nodes.size()];
+        this.head = new Node(vals[0]);
+        System.out.println(head.value);
+        ArrayList<Node> nodes = new ArrayList<Node>();
+        nodes.add(head);
+
+//        for (int i = 1; i < vals.length; i++){
+//            int val = vals[i];
+//            nodes.add(new Node(val));
+//        }
+//        for (int i = 0; i < nodes.size() - 1; i++){
+//            nodes.get(i).next = nodes.get(i+1);
+//        }
 
     }
 
