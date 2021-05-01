@@ -38,6 +38,7 @@ Justifications:
 - In my code, I allow the user to enter any number from 1 to 100 into six fields in order to create the Array. This essentially allows the user to create a Head, a Tail, as well as the parts in the middle. Furthermore, since the user can enter any number into any number of fields, they have the possibility to delete elements from the Array as well. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaLinkedList.html#L17-L37) in order to see the code for this.
 - When entered, the Array is printed out in a list, as can be seen in the code [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaLinkedList.html#L39-L43).
 - Finally, I included time complexities in the LinkedList Lab based on the output. The code for this can be found [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaLinkedList.html#L45-L47).
+- The Ticket I created for the LinkedList Lab can be found [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1). It's at the very bottom of the "Completed" section of the Scrum Board.
 
 ------------------------------------------------------ Week 4 ------------------------------------------------------
 
