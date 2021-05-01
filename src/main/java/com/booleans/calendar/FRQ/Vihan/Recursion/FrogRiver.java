@@ -1,4 +1,4 @@
-package com.booleans.calendar.FRQ.Vihan;
+package com.booleans.calendar.FRQ.Vihan.Recursion;
 
 import java.time.Duration;
 import java.time.Instant;
