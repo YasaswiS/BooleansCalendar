@@ -1,5 +1,7 @@
 package com.booleans.calendar.FRQ.Yasaswi;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class LinkedList{
@@ -42,6 +44,37 @@ public class LinkedList{
             nodes.get(i).next = nodes.get(i+1);
         }
 
+    }
+
+    public int[] toList(){
+        int[] list = new int[nodes.size()];
+        for (int i = 0; i < nodes.size(); i++){
+            list[i] = nodes.get(i).value;
+        }
+        return list;
+    }
+
+    public void toLinkedList(int[] list){
+        //this.nodes = new ArrayList<Node>();
+        for(int val: list){
+            this.nodes.add(new Node(val));
+        }
+        for (int i = 0; i < nodes.size() - 1; i++){
+            nodes.get(i).next = nodes.get(i+1);
+        }
+    }
+
+    public void toFile(String path){
+
+        try {
+            FileWriter myWriter = new FileWriter(path);
+            myWriter.write(this.toString());
+            myWriter.close();
+
+        } catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
     }
 
     public void addTail(int val){
@@ -89,7 +122,7 @@ public class LinkedList{
     public String toString(){
         String result = "";
         for (int val : traverse()){
-            result = result + val + ", ";
+            result = result + val;
         }
         return result;
     }
@@ -110,6 +143,12 @@ public class LinkedList{
         System.out.println(linkedList.traverse());
         linkedList.addTail(6);
         System.out.println(linkedList.traverse());
+        //System.out.println(linkedList.toList()[0]);
+        int[] test = {1, 2, 4};
+        linkedList.toLinkedList(test);
+        System.out.println(linkedList.traverse());
+        System.out.println(linkedList.toString());
+        linkedList.toFile("src/main/java/com/booleans/calendar/FRQ/Yasaswi/linkedListData.txt");
 
     }
 }
