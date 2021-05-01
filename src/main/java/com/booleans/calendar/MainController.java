@@ -152,4 +152,21 @@ public class MainController extends SpringBootServletInitializer {
 
         return "labs/Praveen/PraveenLinkedList";
     }
+
+    @RequestMapping(value = "/labs/Neil/LinkedList", method = {RequestMethod.GET, RequestMethod.POST})
+    public String LinkedListNeil(@RequestParam(value = "add", required = false, defaultValue = "12") String add, Model model) {
+
+        LinkedList list = new LinkedList(new int[]{7,6,2,5,4,8});
+
+        int val = Integer.parseInt(add);
+
+        list.addHead(val);
+
+        model.addAttribute("linkedlist1", list.traverse().get(0));
+        model.addAttribute("linkedlist2", list.traverse().get(1));
+        model.addAttribute("linkedlist3", list.traverse().get(list.traverse().size()-1));
+        model.addAttribute("linkedlist4", list.traverse());
+
+        return "labs/Neil/NeilLinkedList";
+    }
 }

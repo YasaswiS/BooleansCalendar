@@ -71,10 +71,6 @@ public class SortController {
 
             test = new Computer[]{new Computer()};
 
-            if (array.compareTo("default") == 0) {
-                test = new Computer[]{new Computer(1000), new Computer(512), new Computer(128), new Computer(256), new Computer(2000), new Computer(64)};
-            }
-
         }
         sort = new Sorts(new ArrayList<Comparable>(Arrays.asList(test)),sortMethod);
         model.addAttribute("elapsedTime", String.valueOf(sort.elapsedTime));
