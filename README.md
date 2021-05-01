@@ -22,6 +22,7 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 ###### Aditya Surapaneni
 
 [Link to LinkedLists Lab](https://linked-list-lab.herokuapp.com/linked-list)
+[Link to Home Page Containing All Our Labs](https://booleans-website.herokuapp.com/labs) Preferrably, click this, as it will allow you to see every member's Labs from one single area. Just hover over our names!
 
 NOTE: The link above might take some time to load since the Sorts Lab is deployed on Heroku. Our team is working on deploying to AWS at the moment.
 
@@ -36,7 +37,7 @@ Justifications:
 - I linked the LinkedList Lab under my name in a dropdown menu on the Mini Labs Home Page. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/MiniLabsHome.html#L160-L167) to see the code which controls this function.
 - In my code, I allow the user to enter any number from 1 to 100 into six fields in order to create the Array. This essentially allows the user to create a Head, a Tail, as well as the parts in the middle. Furthermore, since the user can enter any number into any number of fields, they have the possibility to delete elements from the Array as well. Click [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaLinkedList.html#L17-L37) in order to see the code for this.
 - When entered, the Array is printed out in a list, as can be seen in the code [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaLinkedList.html#L39-L43).
-- Finally, I include time complexities in the LinkedList Lab based on the output. The code for this can be found [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaLinkedList.html#L45-L47).
+- Finally, I included time complexities in the LinkedList Lab based on the output. The code for this can be found [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaLinkedList.html#L45-L47).
 
 ------------------------------------------------------ Week 4 ------------------------------------------------------
 
