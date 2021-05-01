@@ -26,7 +26,7 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 NOTE: The link above might take some time to load since the Sorts Lab is deployed on Heroku. Our team is working on deploying to AWS at the moment.
 
-PLS READ: Mr. M, since you are looking over all of the Labs, we would like you to re-grade our Inheritance Lab. Our group got a 6/10, but you said we could improve our grade if we fixed it. We have fixed it, so please take a look at it.
+PLS READ: Mr. M, since you are looking over all of the Labs, we would like you to re-grade our Mini Review 2. Our group got a 6/10, but you said we could improve our grade if we fixed it. We have fixed it, so please take a look at it.
 
 Grade: 5/5
 
