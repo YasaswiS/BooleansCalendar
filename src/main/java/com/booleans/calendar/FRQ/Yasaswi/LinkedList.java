@@ -48,9 +48,10 @@ public class LinkedList{
 
     public ArrayList<Integer> traverse(){
         ArrayList<Integer> vals = new ArrayList<Integer>();
-        while (head != null) {
-            vals.add(head.value);
-            head = head.next;
+        Node current = head;
+        while (current != null) {
+            vals.add(current.value);
+            current = current.next;
         }
         return vals;
     }
@@ -70,8 +71,8 @@ public class LinkedList{
 
         System.out.println(linkedList.traverse());
 
-        //System.out.println(linkedList.head.value);
-        //System.out.println(linkedList.head.next.value);
+        System.out.println(linkedList.head.value);
+        System.out.println(linkedList.head.next.value);
 
     }
 }
