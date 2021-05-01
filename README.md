@@ -21,8 +21,8 @@ Click [here](https://docs.google.com/document/d/1_egHgpKx7FtzuqQB7QGcD1Rdo_Stov1
 
 ###### Aditya Surapaneni
 
-[Link to LinkedLists Lab](https://linked-list-lab.herokuapp.com/linked-list)
-[Link to Home Page Containing All Our Labs](https://booleans-website.herokuapp.com/labs) Preferrably, click this, as it will allow you to see every member's Labs from one single area. Just hover over our names!
+- [Link to LinkedLists Lab](https://linked-list-lab.herokuapp.com/linked-list)
+- [Link to Home Page Containing All Our Labs](https://booleans-website.herokuapp.com/labs) Preferrably, click this, as it will allow you to see every member's Labs from one single area. Just hover over our names!
 
 NOTE: The link above might take some time to load since the Sorts Lab is deployed on Heroku. Our team is working on deploying to AWS at the moment.
 
