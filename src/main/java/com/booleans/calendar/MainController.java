@@ -124,7 +124,9 @@ public class MainController extends SpringBootServletInitializer {
 
         LinkedList list = new LinkedList(new int[]{1,2,3});
 
-        model.addAttribute("linkedlist", list);
+        model.addAttribute("linkedlist1", list.traverse().get(0));
+        model.addAttribute("linkedlist2", list.traverse().get(1));
+        model.addAttribute("linkedlist3", list.traverse().get(list.traverse().size()-1));
 
         return "labs/Yasaswi/YasaswiLinkedList";
     }
