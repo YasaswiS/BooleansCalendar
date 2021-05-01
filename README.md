@@ -40,6 +40,18 @@ Justifications:
 - Finally, I included time complexities in the LinkedList Lab based on the output. The code for this can be found [here](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/resources/templates/labs/Aditya/AdityaLinkedList.html#L45-L47).
 - The Ticket I created for the LinkedList Lab can be found [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1). It's at the very bottom of the "Completed" section of the Scrum Board.
 
+###### Yasaswi Singamneni
+
+Grade: 5/5
+
+Justifications:
+
+- I coded all the backend aspects of linked list lab, like adding nodes to the head, and the tail end, visible [here](http://3.131.39.159/labs/Yasaswi/LinkedList).
+- In my code, I allow the user to add a node of any value to the [beginning](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Yasaswi/LinkedList.java#L26) or [at the end of the linked list](https://github.com/AdityaS1426/BooleansCalendar/blob/master/src/main/java/com/booleans/calendar/FRQ/Yasaswi/LinkedList.java#L47), along with having the user ravers the linked list by following the pointers using a while loop.
+- I helped my other group members in understanding and implementing linked lists, along with some members of my corssover group.
+- I helped get the website running on the AWS EC2 instance.
+- My linked list minilab's ticket is on our scrumboard [here](https://github.com/AdityaS1426/BooleansCalendar/projects/1). 
+
 ###### Neil Sahai
 
 Grade: 5/5
